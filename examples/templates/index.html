@@ -1,0 +1,28 @@
+
+<html>
+    <head>
+        <title>Meltree Samples</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- <script src="/eel.js"></script> -->
+    </head>
+    <body>
+        <script src="/meltree_static/lodash.js"></script>
+
+        <script src="/meltree_static/morphdom-umd.js"></script>
+        <script src="/meltree_static/socket.io.min.js"></script>
+        <script type="module"> 
+            var url = "message";
+            import {Meld} from "/meltree_static/meld.js";
+            Meld.init(url);
+        </script>
+        
+        <div>
+            <div class="">
+                {% for component_obj in components %}
+                    {% meld component_obj %}
+                {% endfor %}
+            </div>
+        </div>
+    </body>
+</html>

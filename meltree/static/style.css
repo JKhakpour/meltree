@@ -1,0 +1,28 @@
+html, body {
+    height:     100%;
+}
+
+body {
+    -webkit-perspective:        3000px;
+}
+
+.card {
+    -webkit-transform-style:    preserve-3d;
+    width:                      167px;
+    height:                     243px;
+    position:                   absolute;
+    -webkit-transition:         -webkit-transform 0.2s ease-out;
+}
+
+.card .backface, .card .frontface {
+    width:                          100%;
+    height:                         100%;
+    position:                       absolute;
+    background-image:               url(cards.png);
+    -webkit-backface-visibility:    hidden;
+}
+
+.card .backface {
+    -webkit-transform:      rotateY(180deg);
+    background-position:    -335.076px -972.8px;
+}

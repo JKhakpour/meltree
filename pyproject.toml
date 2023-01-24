@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "meltree"
+version = "0.1.0"
+description = "A framework to create HTML/CSS GUIs for Python Applications"
+authors = ["Jafar Khakpour <jfr.khakpour@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+aiohttp = "^3.8.3"
+python-socketio = "^5.7.2"
+eel = "^0.15.1"
+aiohttp-jinja2 = "^1.5"
+jinja2-simple-tags = "^0.4.1"
+orjson = "^3.8.5"
+bs4 = "^0.0.1"
+wrapt = "^1.14.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

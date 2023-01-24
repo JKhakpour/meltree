@@ -1,0 +1,1061 @@
+2023-01-24 00:32:44,797 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:02:44 +0000] "GET / HTTP/1.1" 200 5025 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 00:32:44,836 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:02:44 +0000] "GET /meltree_static/lodash.js HTTP/1.1" 200 252 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 00:32:44,871 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:02:44 +0000] "GET /meltree_static/morphdom-umd.js HTTP/1.1" 200 250 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 00:32:44,872 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:02:44 +0000] "GET /static/socket.io.min.js HTTP/1.1" 200 250 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 00:32:45,216 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:02:45 +0000] "GET /meltree_static/meld.js HTTP/1.1" 200 248 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 00:32:45,226 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:02:45 +0000] "GET /meltree_static/component.js HTTP/1.1" 200 249 "http://localhost:8080/meltree_static/meld.js" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 00:32:45,232 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:02:45 +0000] "GET /meltree_static/utils.js HTTP/1.1" 200 247 "http://localhost:8080/meltree_static/meld.js" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 00:32:45,276 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:02:45 +0000] "GET /meltree_static/element.js HTTP/1.1" 200 249 "http://localhost:8080/meltree_static/component.js" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 00:32:45,277 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:02:45 +0000] "GET /meltree_static/morph.js HTTP/1.1" 200 250 "http://localhost:8080/meltree_static/component.js" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 00:32:45,285 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:02:45 +0000] "GET /meltree_static/attribute.js HTTP/1.1" 200 248 "http://localhost:8080/meltree_static/element.js" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 00:32:45,295 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:02:45 +0000] "GET /socket.io/?EIO=4&transport=polling&t=ONWSCOh HTTP/1.1" 200 288 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 00:32:45,316 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:02:45 +0000] "POST /socket.io/?EIO=4&transport=polling&t=ONWSCO_&sid=PoAhhxhKxom23jOTAAAA HTTP/1.1" 200 229 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 00:32:45,323 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:02:45 +0000] "GET /socket.io/?EIO=4&transport=polling&t=ONWSCP2&sid=PoAhhxhKxom23jOTAAAA HTTP/1.1" 200 223 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 00:32:45,359 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:02:45 +0000] "GET /socket.io/?EIO=4&transport=polling&t=ONWSCPi&sid=PoAhhxhKxom23jOTAAAA HTTP/1.1" 200 191 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 00:32:45,360 - MelTree - INFO - received event "meld-init" from I5mrXEuoynGwNH_9AAAB [/]
+2023-01-24 00:32:45,361 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:02:45 +0000] "POST /socket.io/?EIO=4&transport=polling&t=ONWSCPj&sid=PoAhhxhKxom23jOTAAAA HTTP/1.1" 200 229 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 00:32:45,435 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:02:45 +0000] "GET /socket.io/?EIO=4&transport=polling&t=ONWSCQt&sid=PoAhhxhKxom23jOTAAAA HTTP/1.1" 200 191 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 00:32:45,449 - MelTree - INFO - received event "meld-init" from I5mrXEuoynGwNH_9AAAB [/]
+2023-01-24 00:32:45,458 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:02:45 +0000] "GET /favicon.ico HTTP/1.1" 404 172 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 00:32:47,870 - MelTree - INFO - received event "meld-message" from I5mrXEuoynGwNH_9AAAB [/]
+2023-01-24 00:32:47,881 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 00:32:48,571 - MelTree - INFO - received event "meld-message" from I5mrXEuoynGwNH_9AAAB [/]
+2023-01-24 00:32:48,581 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 00:32:49,287 - MelTree - INFO - received event "meld-message" from I5mrXEuoynGwNH_9AAAB [/]
+2023-01-24 00:32:49,314 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 00:32:50,532 - MelTree - INFO - received event "meld-message" from I5mrXEuoynGwNH_9AAAB [/]
+2023-01-24 00:32:50,554 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 00:33:00,466 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:02:45 +0000] "GET /socket.io/?EIO=4&transport=websocket&sid=PoAhhxhKxom23jOTAAAA HTTP/1.1" 101 0 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 00:33:15,104 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:03:15 +0000] "GET / HTTP/1.1" 200 2170 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 00:33:15,179 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:03:15 +0000] "GET /meltree_static/lodash.js HTTP/1.1" 304 178 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 00:33:15,179 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:03:15 +0000] "GET /meltree_static/morphdom-umd.js HTTP/1.1" 304 177 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 00:33:15,187 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:03:15 +0000] "GET /static/socket.io.min.js HTTP/1.1" 304 177 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 00:33:15,539 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:03:15 +0000] "GET /meltree_static/meld.js HTTP/1.1" 304 176 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 00:33:15,598 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:03:15 +0000] "GET /meltree_static/component.js HTTP/1.1" 304 177 "http://localhost:8080/meltree_static/meld.js" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 00:33:15,598 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:03:15 +0000] "GET /meltree_static/utils.js HTTP/1.1" 304 176 "http://localhost:8080/meltree_static/meld.js" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 00:33:15,607 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:03:15 +0000] "GET /meltree_static/morph.js HTTP/1.1" 304 177 "http://localhost:8080/meltree_static/component.js" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 00:33:15,607 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:03:15 +0000] "GET /meltree_static/element.js HTTP/1.1" 304 177 "http://localhost:8080/meltree_static/component.js" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 00:33:15,616 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:03:15 +0000] "GET /meltree_static/attribute.js HTTP/1.1" 304 176 "http://localhost:8080/meltree_static/element.js" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 00:33:15,627 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:03:15 +0000] "GET /socket.io/?EIO=4&transport=polling&t=ONWSJoc HTTP/1.1" 200 288 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 00:33:15,661 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:03:15 +0000] "POST /socket.io/?EIO=4&transport=polling&t=ONWSJp1&sid=LBsaUuuTUKMx6l0EAAAA HTTP/1.1" 200 229 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 00:33:15,664 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:03:15 +0000] "GET /socket.io/?EIO=4&transport=polling&t=ONWSJp3&sid=LBsaUuuTUKMx6l0EAAAA HTTP/1.1" 200 223 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 00:33:15,743 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:03:15 +0000] "GET /socket.io/?EIO=4&transport=polling&t=ONWSJqS&sid=LBsaUuuTUKMx6l0EAAAA HTTP/1.1" 200 191 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 00:33:15,744 - MelTree - INFO - received event "meld-init" from G98a31f4nXGCjyxLAAAB [/]
+2023-01-24 00:33:15,744 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:03:15 +0000] "POST /socket.io/?EIO=4&transport=polling&t=ONWSJqT&sid=LBsaUuuTUKMx6l0EAAAA HTTP/1.1" 200 229 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 00:33:15,758 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:03:15 +0000] "GET /socket.io/?EIO=4&transport=polling&t=ONWSJqe&sid=LBsaUuuTUKMx6l0EAAAA HTTP/1.1" 200 191 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 00:33:15,773 - MelTree - INFO - received event "meld-init" from G98a31f4nXGCjyxLAAAB [/]
+2023-01-24 00:33:15,775 - MelTree - INFO - received event "meld-init" from G98a31f4nXGCjyxLAAAB [/]
+2023-01-24 00:33:15,776 - MelTree - INFO - received event "meld-init" from G98a31f4nXGCjyxLAAAB [/]
+2023-01-24 00:33:18,169 - MelTree - INFO - received event "meld-message" from G98a31f4nXGCjyxLAAAB [/]
+2023-01-24 00:33:18,671 - MelTree - INFO - emitting event "meld-event" to all [/]
+2023-01-24 00:33:18,676 - MelTree - INFO - received event "meld-message" from G98a31f4nXGCjyxLAAAB [/]
+2023-01-24 00:33:18,690 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 00:33:19,173 - MelTree - INFO - emitting event "meld-event" to all [/]
+2023-01-24 00:33:19,177 - MelTree - INFO - received event "meld-message" from G98a31f4nXGCjyxLAAAB [/]
+2023-01-24 00:33:19,188 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 00:33:19,675 - MelTree - INFO - emitting event "meld-event" to all [/]
+2023-01-24 00:33:19,680 - MelTree - INFO - received event "meld-message" from G98a31f4nXGCjyxLAAAB [/]
+2023-01-24 00:33:19,691 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 00:33:20,178 - MelTree - INFO - emitting event "meld-event" to all [/]
+2023-01-24 00:33:20,182 - MelTree - INFO - received event "meld-message" from G98a31f4nXGCjyxLAAAB [/]
+2023-01-24 00:33:20,194 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 00:33:20,681 - MelTree - INFO - emitting event "meld-event" to all [/]
+2023-01-24 00:33:20,685 - MelTree - INFO - received event "meld-message" from G98a31f4nXGCjyxLAAAB [/]
+2023-01-24 00:33:20,699 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 00:33:21,184 - MelTree - INFO - emitting event "meld-event" to all [/]
+2023-01-24 00:33:21,188 - MelTree - INFO - received event "meld-message" from G98a31f4nXGCjyxLAAAB [/]
+2023-01-24 00:33:21,200 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 00:33:21,687 - MelTree - INFO - emitting event "meld-event" to all [/]
+2023-01-24 00:33:21,691 - MelTree - INFO - received event "meld-message" from G98a31f4nXGCjyxLAAAB [/]
+2023-01-24 00:33:21,704 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 00:33:22,189 - MelTree - INFO - emitting event "meld-event" to all [/]
+2023-01-24 00:33:22,193 - MelTree - INFO - received event "meld-message" from G98a31f4nXGCjyxLAAAB [/]
+2023-01-24 00:33:22,206 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 00:33:22,692 - MelTree - INFO - emitting event "meld-event" to all [/]
+2023-01-24 00:33:22,696 - MelTree - INFO - received event "meld-message" from G98a31f4nXGCjyxLAAAB [/]
+2023-01-24 00:33:22,711 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 00:33:23,194 - MelTree - INFO - emitting event "meld-event" to all [/]
+2023-01-24 00:33:23,199 - MelTree - INFO - received event "meld-message" from G98a31f4nXGCjyxLAAAB [/]
+2023-01-24 00:33:23,212 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 00:33:23,698 - MelTree - INFO - emitting event "meld-event" to all [/]
+2023-01-24 00:33:23,702 - MelTree - INFO - received event "meld-message" from G98a31f4nXGCjyxLAAAB [/]
+2023-01-24 00:33:23,714 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 00:33:24,200 - MelTree - INFO - emitting event "meld-event" to all [/]
+2023-01-24 00:33:24,204 - MelTree - INFO - received event "meld-message" from G98a31f4nXGCjyxLAAAB [/]
+2023-01-24 00:33:24,220 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 00:33:24,703 - MelTree - INFO - emitting event "meld-event" to all [/]
+2023-01-24 00:33:24,707 - MelTree - INFO - received event "meld-message" from G98a31f4nXGCjyxLAAAB [/]
+2023-01-24 00:33:24,720 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 00:33:25,206 - MelTree - INFO - emitting event "meld-event" to all [/]
+2023-01-24 00:33:25,209 - MelTree - INFO - received event "meld-message" from G98a31f4nXGCjyxLAAAB [/]
+2023-01-24 00:33:25,216 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 00:33:25,708 - MelTree - INFO - emitting event "meld-event" to all [/]
+2023-01-24 00:33:25,712 - MelTree - INFO - received event "meld-message" from G98a31f4nXGCjyxLAAAB [/]
+2023-01-24 00:33:25,725 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 00:33:26,211 - MelTree - INFO - emitting event "meld-event" to all [/]
+2023-01-24 00:33:26,215 - MelTree - INFO - received event "meld-message" from G98a31f4nXGCjyxLAAAB [/]
+2023-01-24 00:33:26,229 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 00:33:26,714 - MelTree - INFO - emitting event "meld-event" to all [/]
+2023-01-24 00:33:26,718 - MelTree - INFO - received event "meld-message" from G98a31f4nXGCjyxLAAAB [/]
+2023-01-24 00:33:26,729 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 00:33:27,217 - MelTree - INFO - emitting event "meld-event" to all [/]
+2023-01-24 00:33:27,221 - MelTree - INFO - received event "meld-message" from G98a31f4nXGCjyxLAAAB [/]
+2023-01-24 00:33:27,234 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 00:33:27,720 - MelTree - INFO - emitting event "meld-event" to all [/]
+2023-01-24 00:33:27,723 - MelTree - INFO - received event "meld-message" from G98a31f4nXGCjyxLAAAB [/]
+2023-01-24 00:33:27,736 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 00:33:28,221 - MelTree - INFO - emitting event "meld-event" to all [/]
+2023-01-24 00:33:28,225 - MelTree - INFO - received event "meld-message" from G98a31f4nXGCjyxLAAAB [/]
+2023-01-24 00:33:28,239 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 00:33:28,254 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:03:28 +0000] "GET /static/done.svg HTTP/1.1" 200 238 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 00:33:30,725 - MelTree - INFO - emitting event "meld-event" to all [/]
+2023-01-24 00:33:30,734 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 00:33:30,738 - MelTree - INFO - received event "meld-message" from G98a31f4nXGCjyxLAAAB [/]
+2023-01-24 00:33:30,752 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 00:33:34,529 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:03:15 +0000] "GET /socket.io/?EIO=4&transport=websocket&sid=LBsaUuuTUKMx6l0EAAAA HTTP/1.1" 101 0 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 00:51:27,373 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:21:27 +0000] "GET / HTTP/1.1" 200 5025 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 00:51:27,407 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:21:27 +0000] "GET /meltree_static/lodash.js HTTP/1.1" 304 178 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 00:51:27,428 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:21:27 +0000] "GET /meltree_static/morphdom-umd.js HTTP/1.1" 304 177 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 00:51:27,434 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:21:27 +0000] "GET /static/socket.io.min.js HTTP/1.1" 304 177 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 00:51:27,773 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:21:27 +0000] "GET /meltree_static/meld.js HTTP/1.1" 304 176 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 00:51:27,787 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:21:27 +0000] "GET /meltree_static/component.js HTTP/1.1" 304 177 "http://localhost:8080/meltree_static/meld.js" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 00:51:27,788 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:21:27 +0000] "GET /meltree_static/utils.js HTTP/1.1" 304 176 "http://localhost:8080/meltree_static/meld.js" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 00:51:27,799 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:21:27 +0000] "GET /meltree_static/element.js HTTP/1.1" 304 177 "http://localhost:8080/meltree_static/component.js" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 00:51:27,804 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:21:27 +0000] "GET /meltree_static/morph.js HTTP/1.1" 304 177 "http://localhost:8080/meltree_static/component.js" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 00:51:27,811 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:21:27 +0000] "GET /meltree_static/attribute.js HTTP/1.1" 304 176 "http://localhost:8080/meltree_static/element.js" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 00:51:27,823 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:21:27 +0000] "GET /socket.io/?EIO=4&transport=polling&t=ONWWUSB HTTP/1.1" 200 288 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 00:51:27,851 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:21:27 +0000] "POST /socket.io/?EIO=4&transport=polling&t=ONWWUSb&sid=IR9SwT_NwcWBepsxAAAA HTTP/1.1" 200 229 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 00:51:27,855 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:21:27 +0000] "GET /socket.io/?EIO=4&transport=polling&t=ONWWUSd&sid=IR9SwT_NwcWBepsxAAAA HTTP/1.1" 200 223 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 00:51:27,895 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:21:27 +0000] "GET /socket.io/?EIO=4&transport=polling&t=ONWWUTI&sid=IR9SwT_NwcWBepsxAAAA HTTP/1.1" 200 191 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 00:51:27,896 - MelTree - INFO - received event "meld-init" from mVgz460pIrAJkUpEAAAB [/]
+2023-01-24 00:51:27,897 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:21:27 +0000] "POST /socket.io/?EIO=4&transport=polling&t=ONWWUTJ&sid=IR9SwT_NwcWBepsxAAAA HTTP/1.1" 200 229 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 00:51:27,989 - MelTree - INFO - received event "meld-init" from mVgz460pIrAJkUpEAAAB [/]
+2023-01-24 01:07:34,328 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:37:34 +0000] "GET / HTTP/1.1" 200 5030 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 01:07:34,373 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:37:34 +0000] "GET /meltree_static/lodash.js HTTP/1.1" 304 178 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 01:07:34,390 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:37:34 +0000] "GET /meltree_static/morphdom-umd.js HTTP/1.1" 304 177 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 01:07:34,391 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:37:34 +0000] "GET /static/socket.io.min.js HTTP/1.1" 304 177 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 01:07:34,748 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:37:34 +0000] "GET /meltree_static/meld.js HTTP/1.1" 304 176 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 01:07:34,756 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:37:34 +0000] "GET /meltree_static/component.js HTTP/1.1" 304 177 "http://localhost:8080/meltree_static/meld.js" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 01:07:34,756 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:37:34 +0000] "GET /meltree_static/utils.js HTTP/1.1" 304 176 "http://localhost:8080/meltree_static/meld.js" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 01:07:34,770 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:37:34 +0000] "GET /meltree_static/element.js HTTP/1.1" 304 177 "http://localhost:8080/meltree_static/component.js" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 01:07:34,772 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:37:34 +0000] "GET /meltree_static/morph.js HTTP/1.1" 304 177 "http://localhost:8080/meltree_static/component.js" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 01:07:34,783 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:37:34 +0000] "GET /meltree_static/attribute.js HTTP/1.1" 304 176 "http://localhost:8080/meltree_static/element.js" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 01:07:34,797 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:37:34 +0000] "GET /socket.io/?EIO=4&transport=polling&t=ONWaAX9 HTTP/1.1" 200 288 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 01:07:34,819 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:37:34 +0000] "POST /socket.io/?EIO=4&transport=polling&t=ONWaAXT&sid=w6YWVsp0TNM-flAJAAAA HTTP/1.1" 200 229 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 01:07:34,827 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:37:34 +0000] "GET /socket.io/?EIO=4&transport=polling&t=ONWaAXV&sid=w6YWVsp0TNM-flAJAAAA HTTP/1.1" 200 223 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 01:07:34,854 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:37:34 +0000] "GET /socket.io/?EIO=4&transport=polling&t=ONWaAY1&sid=w6YWVsp0TNM-flAJAAAA HTTP/1.1" 200 191 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 01:07:34,858 - MelTree - INFO - received event "meld-init" from Ii1z3Mnl0eKkMGM-AAAB [/]
+2023-01-24 01:07:34,859 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:37:34 +0000] "POST /socket.io/?EIO=4&transport=polling&t=ONWaAY2&sid=w6YWVsp0TNM-flAJAAAA HTTP/1.1" 200 229 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 01:07:34,950 - MelTree - INFO - received event "meld-init" from Ii1z3Mnl0eKkMGM-AAAB [/]
+2023-01-24 01:07:38,869 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:37:38 +0000] "GET /socket.io/?EIO=4&transport=polling&t=ONWaBWl HTTP/1.1" 200 288 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 01:07:38,880 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:37:38 +0000] "POST /socket.io/?EIO=4&transport=polling&t=ONWaBWx&sid=u6dlIF8ZtujfDnB3AAAC HTTP/1.1" 200 229 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 01:07:38,895 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:37:38 +0000] "GET /socket.io/?EIO=4&transport=polling&t=ONWaBWz&sid=u6dlIF8ZtujfDnB3AAAC HTTP/1.1" 200 191 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 01:08:27,050 - MelTree - INFO - received event "meld-message" from Ii1z3Mnl0eKkMGM-AAAB [/]
+2023-01-24 01:08:27,076 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 01:08:27,970 - MelTree - INFO - received event "meld-message" from Ii1z3Mnl0eKkMGM-AAAB [/]
+2023-01-24 01:08:27,998 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 01:08:28,813 - MelTree - INFO - received event "meld-message" from Ii1z3Mnl0eKkMGM-AAAB [/]
+2023-01-24 01:08:28,839 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 01:08:30,309 - MelTree - INFO - received event "meld-message" from Ii1z3Mnl0eKkMGM-AAAB [/]
+2023-01-24 01:08:30,336 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 01:08:32,722 - MelTree - INFO - received event "meld-message" from Ii1z3Mnl0eKkMGM-AAAB [/]
+2023-01-24 01:08:32,749 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 01:08:33,474 - MelTree - INFO - received event "meld-message" from Ii1z3Mnl0eKkMGM-AAAB [/]
+2023-01-24 01:08:33,496 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 01:08:34,880 - MelTree - INFO - received event "meld-message" from Ii1z3Mnl0eKkMGM-AAAB [/]
+2023-01-24 01:08:34,904 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 01:08:53,982 - MelTree - INFO - received event "meld-message" from Ii1z3Mnl0eKkMGM-AAAB [/]
+2023-01-24 01:08:54,014 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 01:09:21,675 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:39:21 +0000] "GET / HTTP/1.1" 200 5030 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 01:09:21,719 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:39:21 +0000] "GET /socket.io/?EIO=4&transport=polling&t=ONWaadV HTTP/1.1" 200 288 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 01:09:21,786 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:39:21 +0000] "POST /socket.io/?EIO=4&transport=polling&t=ONWaaeb&sid=9X2p5UYWKViqzw52AAAA HTTP/1.1" 200 229 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 01:09:21,790 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:39:21 +0000] "GET /socket.io/?EIO=4&transport=polling&t=ONWaaee&sid=9X2p5UYWKViqzw52AAAA HTTP/1.1" 200 191 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 01:09:22,145 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:39:22 +0000] "GET /socket.io/?EIO=4&transport=polling&t=ONWaakT HTTP/1.1" 200 288 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 01:09:22,166 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:39:22 +0000] "POST /socket.io/?EIO=4&transport=polling&t=ONWaakl&sid=dA9_uYoYiZ_02TY-AAAC HTTP/1.1" 200 229 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 01:09:22,181 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:39:22 +0000] "GET /socket.io/?EIO=4&transport=polling&t=ONWaakn&sid=dA9_uYoYiZ_02TY-AAAC HTTP/1.1" 200 223 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 01:09:22,274 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:39:22 +0000] "GET /socket.io/?EIO=4&transport=polling&t=ONWaamU&sid=dA9_uYoYiZ_02TY-AAAC HTTP/1.1" 200 191 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 01:09:22,275 - MelTree - INFO - received event "meld-init" from 2q7BFrJA-0AwsfrxAAAD [/]
+2023-01-24 01:09:22,278 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:39:22 +0000] "POST /socket.io/?EIO=4&transport=polling&t=ONWaamV&sid=dA9_uYoYiZ_02TY-AAAC HTTP/1.1" 200 229 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 01:09:22,299 - MelTree - INFO - received event "meld-init" from 2q7BFrJA-0AwsfrxAAAD [/]
+2023-01-24 01:09:22,758 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:39:22 +0000] "GET /socket.io/?EIO=4&transport=polling&t=ONWaat_ HTTP/1.1" 200 288 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 01:09:22,774 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:39:22 +0000] "POST /socket.io/?EIO=4&transport=polling&t=ONWaauD&sid=XO0z_iMUartwWZ2aAAAE HTTP/1.1" 200 229 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 01:09:22,790 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:39:22 +0000] "GET /socket.io/?EIO=4&transport=polling&t=ONWaauG&sid=XO0z_iMUartwWZ2aAAAE HTTP/1.1" 200 223 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 01:09:22,811 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:39:22 +0000] "GET /socket.io/?EIO=4&transport=polling&t=ONWaaup&sid=XO0z_iMUartwWZ2aAAAE HTTP/1.1" 200 191 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 01:10:06,651 - MelTree - INFO - received event "meld-message" from 2q7BFrJA-0AwsfrxAAAD [/]
+2023-01-24 01:10:06,684 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 01:10:07,491 - MelTree - INFO - received event "meld-message" from 2q7BFrJA-0AwsfrxAAAD [/]
+2023-01-24 01:10:07,517 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 01:10:08,424 - MelTree - INFO - received event "meld-message" from 2q7BFrJA-0AwsfrxAAAD [/]
+2023-01-24 01:10:08,448 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 01:10:09,991 - MelTree - INFO - received event "meld-message" from 2q7BFrJA-0AwsfrxAAAD [/]
+2023-01-24 01:10:10,020 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 01:10:11,807 - MelTree - INFO - received event "meld-message" from 2q7BFrJA-0AwsfrxAAAD [/]
+2023-01-24 01:10:11,830 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 01:10:12,521 - MelTree - INFO - received event "meld-message" from 2q7BFrJA-0AwsfrxAAAD [/]
+2023-01-24 01:10:12,546 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 01:10:13,937 - MelTree - INFO - received event "meld-message" from 2q7BFrJA-0AwsfrxAAAD [/]
+2023-01-24 01:10:13,962 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 01:10:31,488 - MelTree - INFO - received event "meld-message" from 2q7BFrJA-0AwsfrxAAAD [/]
+2023-01-24 01:10:31,512 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 01:10:32,076 - MelTree - INFO - received event "meld-message" from 2q7BFrJA-0AwsfrxAAAD [/]
+2023-01-24 01:10:32,103 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 01:10:32,482 - MelTree - INFO - received event "meld-message" from 2q7BFrJA-0AwsfrxAAAD [/]
+2023-01-24 01:10:32,506 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 01:10:32,705 - MelTree - INFO - received event "meld-message" from 2q7BFrJA-0AwsfrxAAAD [/]
+2023-01-24 01:10:32,733 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 01:10:32,884 - MelTree - INFO - received event "meld-message" from 2q7BFrJA-0AwsfrxAAAD [/]
+2023-01-24 01:10:32,910 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 01:10:34,472 - MelTree - INFO - received event "meld-message" from 2q7BFrJA-0AwsfrxAAAD [/]
+2023-01-24 01:10:34,498 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 01:10:35,038 - MelTree - INFO - received event "meld-message" from 2q7BFrJA-0AwsfrxAAAD [/]
+2023-01-24 01:10:35,066 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 01:10:44,784 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:39:22 +0000] "GET /socket.io/?EIO=4&transport=websocket&sid=dA9_uYoYiZ_02TY-AAAC HTTP/1.1" 101 0 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 01:10:46,003 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:39:21 +0000] "GET /socket.io/?EIO=4&transport=websocket&sid=9X2p5UYWKViqzw52AAAA HTTP/1.1" 101 0 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 01:11:49,415 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:41:49 +0000] "GET / HTTP/1.1" 200 5030 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 01:11:49,461 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:41:49 +0000] "GET /meltree_static/lodash.js HTTP/1.1" 304 178 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 01:11:49,475 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:41:49 +0000] "GET /meltree_static/morphdom-umd.js HTTP/1.1" 304 177 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 01:11:49,485 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:41:49 +0000] "GET /static/socket.io.min.js HTTP/1.1" 304 177 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 01:11:49,835 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:41:49 +0000] "GET /meltree_static/meld.js HTTP/1.1" 304 176 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 01:11:49,846 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:41:49 +0000] "GET /meltree_static/component.js HTTP/1.1" 304 177 "http://localhost:8080/meltree_static/meld.js" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 01:11:49,846 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:41:49 +0000] "GET /meltree_static/utils.js HTTP/1.1" 304 176 "http://localhost:8080/meltree_static/meld.js" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 01:11:49,865 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:41:49 +0000] "GET /meltree_static/element.js HTTP/1.1" 304 177 "http://localhost:8080/meltree_static/component.js" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 01:11:49,866 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:41:49 +0000] "GET /meltree_static/morph.js HTTP/1.1" 304 177 "http://localhost:8080/meltree_static/component.js" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 01:11:49,871 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:41:49 +0000] "GET /socket.io/?EIO=4&transport=polling&t=ONWb8oV HTTP/1.1" 200 288 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 01:11:49,894 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:41:49 +0000] "POST /socket.io/?EIO=4&transport=polling&t=ONWb8oy&sid=ZwCYWdL9TeyL-InHAAAA HTTP/1.1" 200 229 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 01:11:49,897 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:41:49 +0000] "GET /socket.io/?EIO=4&transport=polling&t=ONWb8oz&sid=ZwCYWdL9TeyL-InHAAAA HTTP/1.1" 200 223 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 01:11:49,898 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:41:49 +0000] "GET /meltree_static/attribute.js HTTP/1.1" 304 176 "http://localhost:8080/meltree_static/element.js" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 01:11:49,909 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:41:49 +0000] "GET /socket.io/?EIO=4&transport=polling&t=ONWb8pF&sid=ZwCYWdL9TeyL-InHAAAA HTTP/1.1" 200 191 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 01:11:49,916 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:41:49 +0000] "GET /socket.io/?EIO=4&transport=polling&t=ONWb8pL HTTP/1.1" 200 288 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 01:11:49,952 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:41:49 +0000] "POST /socket.io/?EIO=4&transport=polling&t=ONWb8pk&sid=wvGHygfhnxIXd8oxAAAC HTTP/1.1" 200 229 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 01:11:49,960 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:41:49 +0000] "GET /socket.io/?EIO=4&transport=polling&t=ONWb8pm&sid=wvGHygfhnxIXd8oxAAAC HTTP/1.1" 200 223 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 01:11:50,085 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:41:50 +0000] "GET /socket.io/?EIO=4&transport=polling&t=ONWb8s1&sid=wvGHygfhnxIXd8oxAAAC HTTP/1.1" 200 191 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 01:11:50,091 - MelTree - INFO - received event "meld-init" from am9Bkv161l4Ul7ehAAAD [/]
+2023-01-24 01:11:50,093 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:41:50 +0000] "POST /socket.io/?EIO=4&transport=polling&t=ONWb8s2&sid=wvGHygfhnxIXd8oxAAAC HTTP/1.1" 200 229 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 01:11:50,113 - MelTree - INFO - received event "meld-init" from am9Bkv161l4Ul7ehAAAD [/]
+2023-01-24 01:12:23,192 - MelTree - INFO - received event "meld-message" from am9Bkv161l4Ul7ehAAAD [/]
+2023-01-24 01:12:23,234 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 01:12:24,058 - MelTree - INFO - received event "meld-message" from am9Bkv161l4Ul7ehAAAD [/]
+2023-01-24 01:12:24,098 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 01:12:24,859 - MelTree - INFO - received event "meld-message" from am9Bkv161l4Ul7ehAAAD [/]
+2023-01-24 01:12:24,896 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 01:12:26,529 - MelTree - INFO - received event "meld-message" from am9Bkv161l4Ul7ehAAAD [/]
+2023-01-24 01:12:26,567 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 01:12:28,174 - MelTree - INFO - received event "meld-message" from am9Bkv161l4Ul7ehAAAD [/]
+2023-01-24 01:12:28,209 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 01:12:28,829 - MelTree - INFO - received event "meld-message" from am9Bkv161l4Ul7ehAAAD [/]
+2023-01-24 01:12:28,871 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 01:12:30,286 - MelTree - INFO - received event "meld-message" from am9Bkv161l4Ul7ehAAAD [/]
+2023-01-24 01:12:30,328 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 01:13:15,551 - MelTree - INFO - received event "meld-message" from am9Bkv161l4Ul7ehAAAD [/]
+2023-01-24 01:13:15,584 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 01:13:15,763 - MelTree - INFO - received event "meld-message" from am9Bkv161l4Ul7ehAAAD [/]
+2023-01-24 01:13:15,792 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 01:13:15,974 - MelTree - INFO - received event "meld-message" from am9Bkv161l4Ul7ehAAAD [/]
+2023-01-24 01:13:16,002 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 01:13:17,075 - MelTree - INFO - received event "meld-message" from am9Bkv161l4Ul7ehAAAD [/]
+2023-01-24 01:13:17,108 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 01:13:18,038 - MelTree - INFO - received event "meld-message" from am9Bkv161l4Ul7ehAAAD [/]
+2023-01-24 01:13:18,072 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 01:13:53,975 - MelTree - INFO - received event "meld-message" from am9Bkv161l4Ul7ehAAAD [/]
+2023-01-24 01:13:53,995 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 01:13:54,602 - MelTree - INFO - received event "meld-message" from am9Bkv161l4Ul7ehAAAD [/]
+2023-01-24 01:13:54,634 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 01:13:55,185 - MelTree - INFO - received event "meld-message" from am9Bkv161l4Ul7ehAAAD [/]
+2023-01-24 01:13:55,219 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 01:13:58,700 - MelTree - INFO - received event "meld-message" from am9Bkv161l4Ul7ehAAAD [/]
+2023-01-24 01:13:58,731 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 01:28:23,098 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:58:23 +0000] "GET / HTTP/1.1" 200 5030 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 01:28:23,142 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:58:23 +0000] "GET /meltree_static/lodash.js HTTP/1.1" 304 178 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 01:28:23,170 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:58:23 +0000] "GET /meltree_static/morphdom-umd.js HTTP/1.1" 304 177 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 01:28:23,171 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:58:23 +0000] "GET /static/socket.io.min.js HTTP/1.1" 304 177 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 01:28:23,529 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:58:23 +0000] "GET /meltree_static/meld.js HTTP/1.1" 304 176 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 01:28:23,536 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:58:23 +0000] "GET /meltree_static/component.js HTTP/1.1" 304 177 "http://localhost:8080/meltree_static/meld.js" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 01:28:23,538 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:58:23 +0000] "GET /meltree_static/utils.js HTTP/1.1" 304 176 "http://localhost:8080/meltree_static/meld.js" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 01:28:23,553 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:58:23 +0000] "GET /meltree_static/element.js HTTP/1.1" 304 177 "http://localhost:8080/meltree_static/component.js" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 01:28:23,555 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:58:23 +0000] "GET /meltree_static/morph.js HTTP/1.1" 304 177 "http://localhost:8080/meltree_static/component.js" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 01:28:23,564 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:58:23 +0000] "GET /meltree_static/attribute.js HTTP/1.1" 304 176 "http://localhost:8080/meltree_static/element.js" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 01:28:23,580 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:58:23 +0000] "GET /socket.io/?EIO=4&transport=polling&t=ONWexPL HTTP/1.1" 200 288 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 01:28:23,607 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:58:23 +0000] "POST /socket.io/?EIO=4&transport=polling&t=ONWexPl&sid=bGCAEqumUAg04KxdAAAA HTTP/1.1" 200 229 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 01:28:23,613 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:58:23 +0000] "GET /socket.io/?EIO=4&transport=polling&t=ONWexPp&sid=bGCAEqumUAg04KxdAAAA HTTP/1.1" 200 223 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 01:28:23,637 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:58:23 +0000] "GET /socket.io/?EIO=4&transport=polling&t=ONWexQG&sid=bGCAEqumUAg04KxdAAAA HTTP/1.1" 200 191 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 01:28:23,639 - MelTree - INFO - received event "meld-init" from SAZckhN1tpropWdEAAAB [/]
+2023-01-24 01:28:23,639 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:58:23 +0000] "POST /socket.io/?EIO=4&transport=polling&t=ONWexQH&sid=bGCAEqumUAg04KxdAAAA HTTP/1.1" 200 229 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 01:28:23,722 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:58:23 +0000] "GET /socket.io/?EIO=4&transport=polling&t=ONWexRd&sid=bGCAEqumUAg04KxdAAAA HTTP/1.1" 200 191 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 01:28:23,739 - MelTree - INFO - received event "meld-init" from SAZckhN1tpropWdEAAAB [/]
+2023-01-24 01:28:24,798 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:58:24 +0000] "GET /socket.io/?EIO=4&transport=polling&t=ONWexiN HTTP/1.1" 200 288 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 01:28:24,819 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:58:24 +0000] "POST /socket.io/?EIO=4&transport=polling&t=ONWexid&sid=mRyLsd5VuFfNERQ_AAAC HTTP/1.1" 200 229 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 01:28:24,825 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:58:24 +0000] "GET /socket.io/?EIO=4&transport=polling&t=ONWexig&sid=mRyLsd5VuFfNERQ_AAAC HTTP/1.1" 200 223 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 01:28:24,857 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:58:24 +0000] "GET /socket.io/?EIO=4&transport=polling&t=ONWexjC&sid=mRyLsd5VuFfNERQ_AAAC HTTP/1.1" 200 191 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 01:28:25,740 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:58:25 +0000] "GET /socket.io/?EIO=4&transport=polling&t=ONWexx7 HTTP/1.1" 200 288 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 01:28:25,751 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:58:25 +0000] "POST /socket.io/?EIO=4&transport=polling&t=ONWexxG&sid=FGpqYRtZZxIacwKdAAAE HTTP/1.1" 200 229 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 01:28:25,760 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:58:25 +0000] "GET /socket.io/?EIO=4&transport=polling&t=ONWexxI&sid=FGpqYRtZZxIacwKdAAAE HTTP/1.1" 200 191 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 01:28:25,772 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:58:25 +0000] "GET /socket.io/?EIO=4&transport=polling&t=ONWexxc&sid=FGpqYRtZZxIacwKdAAAE HTTP/1.1" 200 191 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 01:30:13,893 - MelTree - INFO - received event "meld-message" from SAZckhN1tpropWdEAAAB [/]
+2023-01-24 01:30:13,931 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 01:30:14,833 - MelTree - INFO - received event "meld-message" from SAZckhN1tpropWdEAAAB [/]
+2023-01-24 01:30:14,875 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 01:30:15,510 - MelTree - INFO - received event "meld-message" from SAZckhN1tpropWdEAAAB [/]
+2023-01-24 01:30:15,552 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 01:30:16,855 - MelTree - INFO - received event "meld-message" from SAZckhN1tpropWdEAAAB [/]
+2023-01-24 01:30:16,872 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 01:30:18,525 - MelTree - INFO - received event "meld-message" from SAZckhN1tpropWdEAAAB [/]
+2023-01-24 01:30:18,595 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 01:30:19,148 - MelTree - INFO - received event "meld-message" from SAZckhN1tpropWdEAAAB [/]
+2023-01-24 01:30:19,179 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 01:30:20,662 - MelTree - INFO - received event "meld-message" from SAZckhN1tpropWdEAAAB [/]
+2023-01-24 01:30:20,723 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 01:31:46,271 - MelTree - INFO - received event "meld-message" from SAZckhN1tpropWdEAAAB [/]
+2023-01-24 01:31:46,312 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 01:31:47,116 - MelTree - INFO - received event "meld-message" from SAZckhN1tpropWdEAAAB [/]
+2023-01-24 01:31:47,170 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 01:31:53,507 - MelTree - INFO - received event "meld-message" from SAZckhN1tpropWdEAAAB [/]
+2023-01-24 01:31:53,547 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 01:31:54,434 - MelTree - INFO - received event "meld-message" from SAZckhN1tpropWdEAAAB [/]
+2023-01-24 01:31:54,581 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 01:31:55,504 - MelTree - INFO - received event "meld-message" from SAZckhN1tpropWdEAAAB [/]
+2023-01-24 01:31:55,634 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 01:31:56,937 - MelTree - INFO - received event "meld-message" from SAZckhN1tpropWdEAAAB [/]
+2023-01-24 01:31:56,971 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 01:31:59,007 - MelTree - INFO - received event "meld-message" from SAZckhN1tpropWdEAAAB [/]
+2023-01-24 01:31:59,107 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 01:32:00,252 - MelTree - INFO - received event "meld-message" from SAZckhN1tpropWdEAAAB [/]
+2023-01-24 01:32:00,276 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 01:32:01,690 - MelTree - INFO - received event "meld-message" from SAZckhN1tpropWdEAAAB [/]
+2023-01-24 01:32:01,779 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 01:33:12,573 - aiohttp.access - INFO - ::1 [23/Jan/2023:21:58:23 +0000] "GET /socket.io/?EIO=4&transport=websocket&sid=bGCAEqumUAg04KxdAAAA HTTP/1.1" 101 0 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 11:46:18,379 - aiohttp.access - INFO - ::1 [24/Jan/2023:08:16:18 +0000] "GET / HTTP/1.1" 200 5030 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 11:46:18,413 - aiohttp.access - INFO - ::1 [24/Jan/2023:08:16:18 +0000] "GET /meltree_static/lodash.js HTTP/1.1" 304 178 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 11:46:18,436 - aiohttp.access - INFO - ::1 [24/Jan/2023:08:16:18 +0000] "GET /meltree_static/morphdom-umd.js HTTP/1.1" 304 177 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 11:46:18,437 - aiohttp.access - INFO - ::1 [24/Jan/2023:08:16:18 +0000] "GET /static/socket.io.min.js HTTP/1.1" 304 177 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 11:46:18,868 - aiohttp.access - INFO - ::1 [24/Jan/2023:08:16:18 +0000] "GET /meltree_static/meld.js HTTP/1.1" 304 176 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 11:46:18,875 - aiohttp.access - INFO - ::1 [24/Jan/2023:08:16:18 +0000] "GET /meltree_static/component.js HTTP/1.1" 304 177 "http://localhost:8080/meltree_static/meld.js" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 11:46:18,876 - aiohttp.access - INFO - ::1 [24/Jan/2023:08:16:18 +0000] "GET /meltree_static/utils.js HTTP/1.1" 304 176 "http://localhost:8080/meltree_static/meld.js" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 11:46:18,884 - aiohttp.access - INFO - ::1 [24/Jan/2023:08:16:18 +0000] "GET /meltree_static/element.js HTTP/1.1" 304 177 "http://localhost:8080/meltree_static/component.js" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 11:46:18,885 - aiohttp.access - INFO - ::1 [24/Jan/2023:08:16:18 +0000] "GET /meltree_static/morph.js HTTP/1.1" 304 177 "http://localhost:8080/meltree_static/component.js" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 11:46:18,893 - aiohttp.access - INFO - ::1 [24/Jan/2023:08:16:18 +0000] "GET /meltree_static/attribute.js HTTP/1.1" 304 176 "http://localhost:8080/meltree_static/element.js" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 11:46:18,903 - aiohttp.access - INFO - ::1 [24/Jan/2023:08:16:18 +0000] "GET /socket.io/?EIO=4&transport=polling&t=ONYsM_H HTTP/1.1" 200 288 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 11:46:18,923 - aiohttp.access - INFO - ::1 [24/Jan/2023:08:16:18 +0000] "POST /socket.io/?EIO=4&transport=polling&t=ONYsM_d&sid=b5PGgMUwbW4pGln8AAAA HTTP/1.1" 200 229 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 11:46:18,927 - aiohttp.access - INFO - ::1 [24/Jan/2023:08:16:18 +0000] "GET /socket.io/?EIO=4&transport=polling&t=ONYsM_f&sid=b5PGgMUwbW4pGln8AAAA HTTP/1.1" 200 191 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 11:46:18,951 - aiohttp.access - INFO - ::1 [24/Jan/2023:08:16:18 +0000] "GET /socket.io/?EIO=4&transport=polling&t=ONYsN04&sid=b5PGgMUwbW4pGln8AAAA HTTP/1.1" 200 191 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 11:46:19,030 - MelTree - INFO - received event "meld-init" from tPzZU1tY-o1eujx7AAAB [/]
+2023-01-24 11:46:19,031 - MelTree - INFO - received event "meld-init" from tPzZU1tY-o1eujx7AAAB [/]
+2023-01-24 11:46:19,044 - aiohttp.access - INFO - ::1 [24/Jan/2023:08:16:19 +0000] "GET /favicon.ico HTTP/1.1" 404 172 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 11:47:04,117 - MelTree - INFO - received event "meld-message" from tPzZU1tY-o1eujx7AAAB [/]
+2023-01-24 11:47:04,126 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 11:47:05,261 - MelTree - INFO - received event "meld-message" from tPzZU1tY-o1eujx7AAAB [/]
+2023-01-24 11:47:05,291 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 11:47:06,901 - MelTree - INFO - received event "meld-message" from tPzZU1tY-o1eujx7AAAB [/]
+2023-01-24 11:47:06,939 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 11:47:08,615 - MelTree - INFO - received event "meld-message" from tPzZU1tY-o1eujx7AAAB [/]
+2023-01-24 11:47:08,648 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 11:47:10,702 - MelTree - INFO - received event "meld-message" from tPzZU1tY-o1eujx7AAAB [/]
+2023-01-24 11:47:10,754 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 11:47:11,573 - MelTree - INFO - received event "meld-message" from tPzZU1tY-o1eujx7AAAB [/]
+2023-01-24 11:47:11,607 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 11:47:12,950 - MelTree - INFO - received event "meld-message" from tPzZU1tY-o1eujx7AAAB [/]
+2023-01-24 11:47:12,987 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 11:47:27,452 - MelTree - INFO - received event "meld-message" from tPzZU1tY-o1eujx7AAAB [/]
+2023-01-24 11:47:27,465 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 11:48:09,947 - aiohttp.access - INFO - ::1 [24/Jan/2023:08:16:18 +0000] "GET /socket.io/?EIO=4&transport=websocket&sid=b5PGgMUwbW4pGln8AAAA HTTP/1.1" 101 0 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 11:56:17,474 - aiohttp.access - INFO - ::1 [24/Jan/2023:08:26:17 +0000] "GET / HTTP/1.1" 200 5059 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 11:56:17,618 - aiohttp.access - INFO - ::1 [24/Jan/2023:08:26:17 +0000] "GET /meltree_static/socket.io.min.js HTTP/1.1" 404 172 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 11:56:18,654 - aiohttp.access - INFO - ::1 [24/Jan/2023:08:26:18 +0000] "GET /favicon.ico HTTP/1.1" 404 172 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 11:57:13,807 - aiohttp.access - INFO - ::1 [24/Jan/2023:08:27:13 +0000] "GET /meltree_static/socket.io.min.js HTTP/1.1" 404 172 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 11:57:58,454 - aiohttp.access - INFO - ::1 [24/Jan/2023:08:27:58 +0000] "GET /meltree_static/socket.io.min.js HTTP/1.1" 404 172 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 11:57:59,819 - aiohttp.access - INFO - ::1 [24/Jan/2023:08:27:59 +0000] "GET /meltree_static/socket.io.min.js HTTP/1.1" 404 172 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 11:58:00,429 - aiohttp.access - INFO - ::1 [24/Jan/2023:08:28:00 +0000] "GET /meltree_static/socket.io.min.js HTTP/1.1" 404 172 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 11:58:42,037 - aiohttp.access - INFO - ::1 [24/Jan/2023:08:28:42 +0000] "GET /meltree_static/socket.io.min.js HTTP/1.1" 404 172 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 11:58:45,905 - aiohttp.access - INFO - ::1 [24/Jan/2023:08:28:45 +0000] "GET /meltree_static/socket.io.min.js HTTP/1.1" 404 172 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 11:58:46,085 - aiohttp.access - INFO - ::1 [24/Jan/2023:08:28:46 +0000] "GET /favicon.ico HTTP/1.1" 404 172 "http://localhost:8080/meltree_static/socket.io.min.js" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 11:58:57,182 - aiohttp.access - INFO - ::1 [24/Jan/2023:08:28:57 +0000] "GET / HTTP/1.1" 200 5059 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 11:58:57,409 - aiohttp.access - INFO - ::1 [24/Jan/2023:08:28:57 +0000] "GET /meltree_static/socket.io.min.js HTTP/1.1" 404 172 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 11:58:58,490 - aiohttp.access - INFO - ::1 [24/Jan/2023:08:28:58 +0000] "GET /favicon.ico HTTP/1.1" 404 172 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 11:59:36,502 - aiohttp.access - INFO - ::1 [24/Jan/2023:08:29:36 +0000] "GET / HTTP/1.1" 200 5059 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 11:59:36,573 - aiohttp.access - INFO - ::1 [24/Jan/2023:08:29:36 +0000] "GET /meltree_static/socket.io.min.js HTTP/1.1" 404 172 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 12:00:58,436 - aiohttp.access - INFO - ::1 [24/Jan/2023:08:30:58 +0000] "GET / HTTP/1.1" 200 5059 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 12:00:58,556 - aiohttp.access - INFO - ::1 [24/Jan/2023:08:30:58 +0000] "GET /meltree_static/socket.io.min.js HTTP/1.1" 200 250 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 12:01:00,099 - aiohttp.access - INFO - ::1 [24/Jan/2023:08:31:00 +0000] "GET /socket.io/?EIO=4&transport=polling&t=ONYvk7z HTTP/1.1" 200 288 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 12:01:00,141 - aiohttp.access - INFO - ::1 [24/Jan/2023:08:31:00 +0000] "POST /socket.io/?EIO=4&transport=polling&t=ONYvk8X&sid=-pZpECzphj9wxdnsAAAA HTTP/1.1" 200 229 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 12:01:00,151 - aiohttp.access - INFO - ::1 [24/Jan/2023:08:31:00 +0000] "GET /socket.io/?EIO=4&transport=polling&t=ONYvk8c&sid=-pZpECzphj9wxdnsAAAA HTTP/1.1" 200 223 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 12:01:00,287 - aiohttp.access - INFO - ::1 [24/Jan/2023:08:31:00 +0000] "GET /socket.io/?EIO=4&transport=polling&t=ONYvkAw&sid=-pZpECzphj9wxdnsAAAA HTTP/1.1" 200 191 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 12:01:00,332 - aiohttp.access - INFO - ::1 [24/Jan/2023:08:31:00 +0000] "GET /favicon.ico HTTP/1.1" 404 172 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 12:01:05,142 - MelTree - INFO - received event "meld-init" from 91igW6FCOjfTD6IPAAAB [/]
+2023-01-24 12:01:05,144 - MelTree - INFO - received event "meld-init" from 91igW6FCOjfTD6IPAAAB [/]
+2023-01-24 12:01:05,147 - MelTree - INFO - received event "meld-message" from 91igW6FCOjfTD6IPAAAB [/]
+2023-01-24 12:01:05,193 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 12:01:05,197 - MelTree - INFO - received event "meld-message" from 91igW6FCOjfTD6IPAAAB [/]
+2023-01-24 12:01:05,215 - MelTree - INFO - received event "meld-message" from 91igW6FCOjfTD6IPAAAB [/]
+2023-01-24 12:01:05,256 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 12:01:05,257 - MelTree - INFO - received event "meld-message" from 91igW6FCOjfTD6IPAAAB [/]
+2023-01-24 12:01:05,274 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 12:01:05,290 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 12:01:10,565 - MelTree - INFO - received event "meld-message" from 91igW6FCOjfTD6IPAAAB [/]
+2023-01-24 12:01:10,602 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 12:01:11,398 - MelTree - INFO - received event "meld-message" from 91igW6FCOjfTD6IPAAAB [/]
+2023-01-24 12:01:11,438 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 12:01:12,641 - MelTree - INFO - received event "meld-message" from 91igW6FCOjfTD6IPAAAB [/]
+2023-01-24 12:01:12,686 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 12:01:14,790 - aiohttp.access - INFO - ::1 [24/Jan/2023:08:31:00 +0000] "GET /socket.io/?EIO=4&transport=websocket&sid=-pZpECzphj9wxdnsAAAA HTTP/1.1" 101 0 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 12:03:18,989 - aiohttp.access - INFO - ::1 [24/Jan/2023:08:33:18 +0000] "GET / HTTP/1.1" 200 5074 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 12:03:19,177 - aiohttp.access - INFO - ::1 [24/Jan/2023:08:33:19 +0000] "GET /meltree_static/morphdom-umd.js HTTP/1.1" 200 250 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 12:03:19,179 - aiohttp.access - INFO - ::1 [24/Jan/2023:08:33:19 +0000] "GET /meltree_static/lodash.js HTTP/1.1" 200 252 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 12:03:19,184 - aiohttp.access - INFO - ::1 [24/Jan/2023:08:33:19 +0000] "GET /meltree_static/socket.io.min.js HTTP/1.1" 200 250 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 12:03:19,943 - aiohttp.access - INFO - ::1 [24/Jan/2023:08:33:19 +0000] "GET /meltree_static/meld.js HTTP/1.1" 200 248 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 12:03:19,950 - aiohttp.access - INFO - ::1 [24/Jan/2023:08:33:19 +0000] "GET /meltree_static/component.js HTTP/1.1" 200 249 "http://localhost:8080/meltree_static/meld.js" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 12:03:19,987 - aiohttp.access - INFO - ::1 [24/Jan/2023:08:33:19 +0000] "GET /meltree_static/utils.js HTTP/1.1" 200 247 "http://localhost:8080/meltree_static/meld.js" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 12:03:19,993 - aiohttp.access - INFO - ::1 [24/Jan/2023:08:33:19 +0000] "GET /meltree_static/element.js HTTP/1.1" 200 249 "http://localhost:8080/meltree_static/component.js" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 12:03:19,997 - aiohttp.access - INFO - ::1 [24/Jan/2023:08:33:19 +0000] "GET /meltree_static/morph.js HTTP/1.1" 200 250 "http://localhost:8080/meltree_static/component.js" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 12:03:20,025 - aiohttp.access - INFO - ::1 [24/Jan/2023:08:33:19 +0000] "GET /meltree_static/attribute.js HTTP/1.1" 200 248 "http://localhost:8080/meltree_static/element.js" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 12:03:20,035 - aiohttp.access - INFO - ::1 [24/Jan/2023:08:33:20 +0000] "GET /socket.io/?EIO=4&transport=polling&t=ONYwGIF HTTP/1.1" 200 288 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 12:03:20,086 - aiohttp.access - INFO - ::1 [24/Jan/2023:08:33:20 +0000] "POST /socket.io/?EIO=4&transport=polling&t=ONYwGJG&sid=mPZD4947oq-vWUlXAAAA HTTP/1.1" 200 229 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 12:03:20,104 - aiohttp.access - INFO - ::1 [24/Jan/2023:08:33:20 +0000] "GET /socket.io/?EIO=4&transport=polling&t=ONYwGJT&sid=mPZD4947oq-vWUlXAAAA HTTP/1.1" 200 191 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 12:03:20,789 - aiohttp.access - INFO - ::1 [24/Jan/2023:08:33:20 +0000] "GET /socket.io/?EIO=4&transport=polling&t=ONYwGPu&sid=mPZD4947oq-vWUlXAAAA HTTP/1.1" 200 191 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 12:03:20,819 - MelTree - INFO - received event "meld-init" from 0fF3P2J-XdWg7fOrAAAB [/]
+2023-01-24 12:03:20,836 - MelTree - INFO - received event "meld-init" from 0fF3P2J-XdWg7fOrAAAB [/]
+2023-01-24 12:03:21,200 - aiohttp.access - INFO - ::1 [24/Jan/2023:08:33:21 +0000] "GET /favicon.ico HTTP/1.1" 404 172 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 12:03:21,330 - MelTree - INFO - received event "meld-message" from 0fF3P2J-XdWg7fOrAAAB [/]
+2023-01-24 12:03:21,398 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 12:03:22,006 - MelTree - INFO - received event "meld-message" from 0fF3P2J-XdWg7fOrAAAB [/]
+2023-01-24 12:03:22,015 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 12:03:22,692 - MelTree - INFO - received event "meld-message" from 0fF3P2J-XdWg7fOrAAAB [/]
+2023-01-24 12:03:22,734 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 12:03:24,068 - MelTree - INFO - received event "meld-message" from 0fF3P2J-XdWg7fOrAAAB [/]
+2023-01-24 12:03:24,104 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 12:03:36,887 - aiohttp.access - INFO - ::1 [24/Jan/2023:08:33:20 +0000] "GET /socket.io/?EIO=4&transport=websocket&sid=mPZD4947oq-vWUlXAAAA HTTP/1.1" 101 0 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 12:05:29,995 - aiohttp.access - INFO - ::1 [24/Jan/2023:08:35:29 +0000] "GET / HTTP/1.1" 200 5074 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 12:05:30,178 - aiohttp.access - INFO - ::1 [24/Jan/2023:08:35:30 +0000] "GET /meltree_static/lodash.js HTTP/1.1" 200 252 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 12:05:30,178 - aiohttp.access - INFO - ::1 [24/Jan/2023:08:35:30 +0000] "GET /meltree_static/morphdom-umd.js HTTP/1.1" 200 250 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 12:05:30,180 - aiohttp.access - INFO - ::1 [24/Jan/2023:08:35:30 +0000] "GET /meltree_static/socket.io.min.js HTTP/1.1" 200 250 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 12:05:30,784 - aiohttp.access - INFO - ::1 [24/Jan/2023:08:35:30 +0000] "GET /meltree_static/meld.js HTTP/1.1" 200 248 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 12:05:30,826 - aiohttp.access - INFO - ::1 [24/Jan/2023:08:35:30 +0000] "GET /meltree_static/component.js HTTP/1.1" 200 249 "http://localhost:8080/meltree_static/meld.js" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 12:05:30,826 - aiohttp.access - INFO - ::1 [24/Jan/2023:08:35:30 +0000] "GET /meltree_static/utils.js HTTP/1.1" 200 247 "http://localhost:8080/meltree_static/meld.js" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 12:05:30,849 - aiohttp.access - INFO - ::1 [24/Jan/2023:08:35:30 +0000] "GET /meltree_static/element.js HTTP/1.1" 200 249 "http://localhost:8080/meltree_static/component.js" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 12:05:30,852 - aiohttp.access - INFO - ::1 [24/Jan/2023:08:35:30 +0000] "GET /meltree_static/morph.js HTTP/1.1" 200 250 "http://localhost:8080/meltree_static/component.js" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 12:05:30,874 - aiohttp.access - INFO - ::1 [24/Jan/2023:08:35:30 +0000] "GET /meltree_static/attribute.js HTTP/1.1" 200 248 "http://localhost:8080/meltree_static/element.js" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 12:05:30,896 - aiohttp.access - INFO - ::1 [24/Jan/2023:08:35:30 +0000] "GET /socket.io/?EIO=4&transport=polling&t=ONYwmF7 HTTP/1.1" 200 288 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 12:05:31,067 - aiohttp.access - INFO - ::1 [24/Jan/2023:08:35:31 +0000] "POST /socket.io/?EIO=4&transport=polling&t=ONYwmGP&sid=9gB2unOANdFPzGc2AAAA HTTP/1.1" 200 229 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 12:05:31,075 - aiohttp.access - INFO - ::1 [24/Jan/2023:08:35:31 +0000] "GET /socket.io/?EIO=4&transport=polling&t=ONYwmGX&sid=9gB2unOANdFPzGc2AAAA HTTP/1.1" 200 223 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 12:05:31,725 - aiohttp.access - INFO - ::1 [24/Jan/2023:08:35:31 +0000] "GET /socket.io/?EIO=4&transport=polling&t=ONYwmJb&sid=9gB2unOANdFPzGc2AAAA HTTP/1.1" 200 191 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 12:05:31,726 - aiohttp.access - INFO - ::1 [24/Jan/2023:08:35:31 +0000] "GET /favicon.ico HTTP/1.1" 404 172 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 12:05:35,984 - MelTree - INFO - received event "meld-init" from 8Nslwtv7Mz9cHQY6AAAB [/]
+2023-01-24 12:05:35,987 - MelTree - INFO - received event "meld-init" from 8Nslwtv7Mz9cHQY6AAAB [/]
+2023-01-24 12:05:35,991 - MelTree - INFO - received event "meld-message" from 8Nslwtv7Mz9cHQY6AAAB [/]
+2023-01-24 12:05:36,046 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 12:05:36,048 - MelTree - INFO - received event "meld-message" from 8Nslwtv7Mz9cHQY6AAAB [/]
+2023-01-24 12:05:36,053 - MelTree - INFO - received event "meld-message" from 8Nslwtv7Mz9cHQY6AAAB [/]
+2023-01-24 12:05:36,088 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 12:05:36,089 - MelTree - INFO - received event "meld-message" from 8Nslwtv7Mz9cHQY6AAAB [/]
+2023-01-24 12:05:36,126 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 12:05:36,145 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 12:05:37,576 - MelTree - INFO - received event "meld-message" from 8Nslwtv7Mz9cHQY6AAAB [/]
+2023-01-24 12:05:37,619 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 12:05:38,228 - MelTree - INFO - received event "meld-message" from 8Nslwtv7Mz9cHQY6AAAB [/]
+2023-01-24 12:05:38,287 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 12:05:40,376 - MelTree - INFO - received event "meld-message" from 8Nslwtv7Mz9cHQY6AAAB [/]
+2023-01-24 12:05:40,409 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 12:05:44,885 - aiohttp.access - INFO - ::1 [24/Jan/2023:08:35:31 +0000] "GET /socket.io/?EIO=4&transport=websocket&sid=9gB2unOANdFPzGc2AAAA HTTP/1.1" 101 0 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 12:45:56,650 - aiohttp.access - INFO - ::1 [24/Jan/2023:09:15:56 +0000] "GET / HTTP/1.1" 200 2222 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 12:45:56,744 - aiohttp.access - INFO - ::1 [24/Jan/2023:09:15:56 +0000] "GET /meltree_static/lodash.js HTTP/1.1" 200 252 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 12:45:56,747 - aiohttp.access - INFO - ::1 [24/Jan/2023:09:15:56 +0000] "GET /meltree_static/morphdom-umd.js HTTP/1.1" 200 250 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 12:45:56,748 - aiohttp.access - INFO - ::1 [24/Jan/2023:09:15:56 +0000] "GET /meltree_static/socket.io.min.js HTTP/1.1" 200 250 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 12:45:57,018 - aiohttp.access - INFO - ::1 [24/Jan/2023:09:15:57 +0000] "GET /meltree_static/meld.js HTTP/1.1" 200 248 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 12:45:57,073 - aiohttp.access - INFO - ::1 [24/Jan/2023:09:15:57 +0000] "GET /meltree_static/component.js HTTP/1.1" 200 249 "http://localhost:8080/meltree_static/meld.js" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 12:45:57,075 - aiohttp.access - INFO - ::1 [24/Jan/2023:09:15:57 +0000] "GET /meltree_static/utils.js HTTP/1.1" 200 247 "http://localhost:8080/meltree_static/meld.js" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 12:45:57,083 - aiohttp.access - INFO - ::1 [24/Jan/2023:09:15:57 +0000] "GET /meltree_static/element.js HTTP/1.1" 200 249 "http://localhost:8080/meltree_static/component.js" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 12:45:57,084 - aiohttp.access - INFO - ::1 [24/Jan/2023:09:15:57 +0000] "GET /meltree_static/morph.js HTTP/1.1" 200 250 "http://localhost:8080/meltree_static/component.js" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 12:45:57,089 - aiohttp.access - INFO - ::1 [24/Jan/2023:09:15:57 +0000] "GET /meltree_static/attribute.js HTTP/1.1" 200 248 "http://localhost:8080/meltree_static/element.js" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 12:45:57,100 - aiohttp.access - INFO - ::1 [24/Jan/2023:09:15:57 +0000] "GET /socket.io/?EIO=4&transport=polling&t=ONZ40ac HTTP/1.1" 200 288 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 12:45:57,118 - aiohttp.access - INFO - ::1 [24/Jan/2023:09:15:57 +0000] "POST /socket.io/?EIO=4&transport=polling&t=ONZ40at&sid=KmO10KeGJXLp1m-dAAAA HTTP/1.1" 200 229 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 12:45:57,122 - aiohttp.access - INFO - ::1 [24/Jan/2023:09:15:57 +0000] "GET /socket.io/?EIO=4&transport=polling&t=ONZ40aw&sid=KmO10KeGJXLp1m-dAAAA HTTP/1.1" 200 223 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 12:45:57,150 - MelTree - INFO - received event "meld-init" from eaknjC4cNiuC2QPqAAAB [/]
+2023-01-24 12:45:57,150 - aiohttp.access - INFO - ::1 [24/Jan/2023:09:15:57 +0000] "POST /socket.io/?EIO=4&transport=polling&t=ONZ40bP&sid=KmO10KeGJXLp1m-dAAAA HTTP/1.1" 200 229 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 12:45:57,151 - aiohttp.access - INFO - ::1 [24/Jan/2023:09:15:57 +0000] "GET /socket.io/?EIO=4&transport=polling&t=ONZ40bQ&sid=KmO10KeGJXLp1m-dAAAA HTTP/1.1" 200 191 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 12:45:57,211 - MelTree - INFO - received event "meld-init" from eaknjC4cNiuC2QPqAAAB [/]
+2023-01-24 12:45:57,211 - MelTree - INFO - received event "meld-init" from eaknjC4cNiuC2QPqAAAB [/]
+2023-01-24 12:45:57,213 - MelTree - INFO - received event "meld-init" from eaknjC4cNiuC2QPqAAAB [/]
+2023-01-24 12:45:57,215 - aiohttp.access - INFO - ::1 [24/Jan/2023:09:15:57 +0000] "POST /socket.io/?EIO=4&transport=polling&t=ONZ40cJ&sid=KmO10KeGJXLp1m-dAAAA HTTP/1.1" 200 229 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 12:45:57,220 - aiohttp.access - INFO - ::1 [24/Jan/2023:09:15:57 +0000] "GET /socket.io/?EIO=4&transport=polling&t=ONZ40cT&sid=KmO10KeGJXLp1m-dAAAA HTTP/1.1" 200 191 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 12:45:57,221 - aiohttp.access - INFO - ::1 [24/Jan/2023:09:15:57 +0000] "GET /favicon.ico HTTP/1.1" 404 172 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 12:45:59,349 - MelTree - INFO - received event "meld-message" from eaknjC4cNiuC2QPqAAAB [/]
+2023-01-24 12:45:59,851 - MelTree - INFO - emitting event "meld-event" to all [/]
+2023-01-24 12:45:59,856 - MelTree - INFO - received event "meld-message" from eaknjC4cNiuC2QPqAAAB [/]
+2023-01-24 12:45:59,868 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 12:46:00,354 - MelTree - INFO - emitting event "meld-event" to all [/]
+2023-01-24 12:46:00,358 - MelTree - INFO - received event "meld-message" from eaknjC4cNiuC2QPqAAAB [/]
+2023-01-24 12:46:00,368 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 12:46:00,856 - MelTree - INFO - emitting event "meld-event" to all [/]
+2023-01-24 12:46:00,860 - MelTree - INFO - received event "meld-message" from eaknjC4cNiuC2QPqAAAB [/]
+2023-01-24 12:46:00,874 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 12:46:01,359 - MelTree - INFO - emitting event "meld-event" to all [/]
+2023-01-24 12:46:01,364 - MelTree - INFO - received event "meld-message" from eaknjC4cNiuC2QPqAAAB [/]
+2023-01-24 12:46:01,377 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 12:46:01,862 - MelTree - INFO - emitting event "meld-event" to all [/]
+2023-01-24 12:46:01,867 - MelTree - INFO - received event "meld-message" from eaknjC4cNiuC2QPqAAAB [/]
+2023-01-24 12:46:01,879 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 12:46:02,365 - MelTree - INFO - emitting event "meld-event" to all [/]
+2023-01-24 12:46:02,369 - MelTree - INFO - received event "meld-message" from eaknjC4cNiuC2QPqAAAB [/]
+2023-01-24 12:46:02,381 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 12:46:02,867 - MelTree - INFO - emitting event "meld-event" to all [/]
+2023-01-24 12:46:02,871 - MelTree - INFO - received event "meld-message" from eaknjC4cNiuC2QPqAAAB [/]
+2023-01-24 12:46:02,885 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 12:46:03,370 - MelTree - INFO - emitting event "meld-event" to all [/]
+2023-01-24 12:46:03,375 - MelTree - INFO - received event "meld-message" from eaknjC4cNiuC2QPqAAAB [/]
+2023-01-24 12:46:03,386 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 12:46:03,872 - MelTree - INFO - emitting event "meld-event" to all [/]
+2023-01-24 12:46:03,877 - MelTree - INFO - received event "meld-message" from eaknjC4cNiuC2QPqAAAB [/]
+2023-01-24 12:46:03,889 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 12:46:04,375 - MelTree - INFO - emitting event "meld-event" to all [/]
+2023-01-24 12:46:04,379 - MelTree - INFO - received event "meld-message" from eaknjC4cNiuC2QPqAAAB [/]
+2023-01-24 12:46:04,391 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 12:46:04,878 - MelTree - INFO - emitting event "meld-event" to all [/]
+2023-01-24 12:46:04,881 - MelTree - INFO - received event "meld-message" from eaknjC4cNiuC2QPqAAAB [/]
+2023-01-24 12:46:04,897 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 12:46:05,380 - MelTree - INFO - emitting event "meld-event" to all [/]
+2023-01-24 12:46:05,384 - MelTree - INFO - received event "meld-message" from eaknjC4cNiuC2QPqAAAB [/]
+2023-01-24 12:46:05,398 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 12:46:05,883 - MelTree - INFO - emitting event "meld-event" to all [/]
+2023-01-24 12:46:05,886 - MelTree - INFO - received event "meld-message" from eaknjC4cNiuC2QPqAAAB [/]
+2023-01-24 12:46:05,902 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 12:46:06,384 - MelTree - INFO - emitting event "meld-event" to all [/]
+2023-01-24 12:46:06,388 - MelTree - INFO - received event "meld-message" from eaknjC4cNiuC2QPqAAAB [/]
+2023-01-24 12:46:06,400 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 12:46:06,887 - MelTree - INFO - emitting event "meld-event" to all [/]
+2023-01-24 12:46:06,892 - MelTree - INFO - received event "meld-message" from eaknjC4cNiuC2QPqAAAB [/]
+2023-01-24 12:46:06,903 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 12:46:07,389 - MelTree - INFO - emitting event "meld-event" to all [/]
+2023-01-24 12:46:07,394 - MelTree - INFO - received event "meld-message" from eaknjC4cNiuC2QPqAAAB [/]
+2023-01-24 12:46:07,406 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 12:46:07,893 - MelTree - INFO - emitting event "meld-event" to all [/]
+2023-01-24 12:46:07,896 - MelTree - INFO - received event "meld-message" from eaknjC4cNiuC2QPqAAAB [/]
+2023-01-24 12:46:07,910 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 12:46:08,394 - MelTree - INFO - emitting event "meld-event" to all [/]
+2023-01-24 12:46:08,398 - MelTree - INFO - received event "meld-message" from eaknjC4cNiuC2QPqAAAB [/]
+2023-01-24 12:46:08,414 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 12:46:08,896 - MelTree - INFO - emitting event "meld-event" to all [/]
+2023-01-24 12:46:08,900 - MelTree - INFO - received event "meld-message" from eaknjC4cNiuC2QPqAAAB [/]
+2023-01-24 12:46:08,912 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 12:46:09,399 - MelTree - INFO - emitting event "meld-event" to all [/]
+2023-01-24 12:46:09,402 - MelTree - INFO - received event "meld-message" from eaknjC4cNiuC2QPqAAAB [/]
+2023-01-24 12:46:09,415 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 12:46:09,428 - aiohttp.access - INFO - ::1 [24/Jan/2023:09:16:09 +0000] "GET /static/done.svg HTTP/1.1" 404 172 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 12:46:11,903 - MelTree - INFO - emitting event "meld-event" to all [/]
+2023-01-24 12:46:11,911 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 12:46:11,912 - MelTree - INFO - received event "meld-message" from eaknjC4cNiuC2QPqAAAB [/]
+2023-01-24 12:46:11,916 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 12:46:18,385 - aiohttp.access - INFO - ::1 [24/Jan/2023:09:16:18 +0000] "GET /meltree_static/socket.io.min.js.map HTTP/1.1" 200 254 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 12:46:22,353 - MelTree - INFO - received event "meld-message" from eaknjC4cNiuC2QPqAAAB [/]
+2023-01-24 12:46:22,855 - MelTree - INFO - emitting event "meld-event" to all [/]
+2023-01-24 12:46:22,859 - MelTree - INFO - received event "meld-message" from eaknjC4cNiuC2QPqAAAB [/]
+2023-01-24 12:46:22,873 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 12:46:23,356 - MelTree - INFO - emitting event "meld-event" to all [/]
+2023-01-24 12:46:23,360 - MelTree - INFO - received event "meld-message" from eaknjC4cNiuC2QPqAAAB [/]
+2023-01-24 12:46:23,374 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 12:46:23,859 - MelTree - INFO - emitting event "meld-event" to all [/]
+2023-01-24 12:46:23,863 - MelTree - INFO - received event "meld-message" from eaknjC4cNiuC2QPqAAAB [/]
+2023-01-24 12:46:23,881 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 12:46:24,362 - MelTree - INFO - emitting event "meld-event" to all [/]
+2023-01-24 12:46:24,364 - MelTree - INFO - received event "meld-message" from eaknjC4cNiuC2QPqAAAB [/]
+2023-01-24 12:46:24,372 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 12:46:24,865 - MelTree - INFO - emitting event "meld-event" to all [/]
+2023-01-24 12:46:24,870 - MelTree - INFO - received event "meld-message" from eaknjC4cNiuC2QPqAAAB [/]
+2023-01-24 12:46:24,883 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 12:46:25,367 - MelTree - INFO - emitting event "meld-event" to all [/]
+2023-01-24 12:46:25,371 - MelTree - INFO - received event "meld-message" from eaknjC4cNiuC2QPqAAAB [/]
+2023-01-24 12:46:25,384 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 12:46:25,869 - MelTree - INFO - emitting event "meld-event" to all [/]
+2023-01-24 12:46:25,873 - MelTree - INFO - received event "meld-message" from eaknjC4cNiuC2QPqAAAB [/]
+2023-01-24 12:46:25,886 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 12:46:26,372 - MelTree - INFO - emitting event "meld-event" to all [/]
+2023-01-24 12:46:26,376 - MelTree - INFO - received event "meld-message" from eaknjC4cNiuC2QPqAAAB [/]
+2023-01-24 12:46:26,389 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 12:46:26,874 - MelTree - INFO - emitting event "meld-event" to all [/]
+2023-01-24 12:46:26,878 - MelTree - INFO - received event "meld-message" from eaknjC4cNiuC2QPqAAAB [/]
+2023-01-24 12:46:26,893 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 12:46:27,377 - MelTree - INFO - emitting event "meld-event" to all [/]
+2023-01-24 12:46:27,381 - MelTree - INFO - received event "meld-message" from eaknjC4cNiuC2QPqAAAB [/]
+2023-01-24 12:46:27,400 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 12:46:27,880 - MelTree - INFO - emitting event "meld-event" to all [/]
+2023-01-24 12:46:27,885 - MelTree - INFO - received event "meld-message" from eaknjC4cNiuC2QPqAAAB [/]
+2023-01-24 12:46:27,896 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 12:46:28,382 - MelTree - INFO - emitting event "meld-event" to all [/]
+2023-01-24 12:46:28,387 - MelTree - INFO - received event "meld-message" from eaknjC4cNiuC2QPqAAAB [/]
+2023-01-24 12:46:28,402 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 12:46:28,885 - MelTree - INFO - emitting event "meld-event" to all [/]
+2023-01-24 12:46:28,889 - MelTree - INFO - received event "meld-message" from eaknjC4cNiuC2QPqAAAB [/]
+2023-01-24 12:46:28,900 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 12:46:29,388 - MelTree - INFO - emitting event "meld-event" to all [/]
+2023-01-24 12:46:29,392 - MelTree - INFO - received event "meld-message" from eaknjC4cNiuC2QPqAAAB [/]
+2023-01-24 12:46:29,404 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 12:46:29,890 - MelTree - INFO - emitting event "meld-event" to all [/]
+2023-01-24 12:46:29,894 - MelTree - INFO - received event "meld-message" from eaknjC4cNiuC2QPqAAAB [/]
+2023-01-24 12:46:29,909 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 12:46:30,392 - MelTree - INFO - emitting event "meld-event" to all [/]
+2023-01-24 12:46:30,397 - MelTree - INFO - received event "meld-message" from eaknjC4cNiuC2QPqAAAB [/]
+2023-01-24 12:46:30,410 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 12:46:30,894 - MelTree - INFO - emitting event "meld-event" to all [/]
+2023-01-24 12:46:30,899 - MelTree - INFO - received event "meld-message" from eaknjC4cNiuC2QPqAAAB [/]
+2023-01-24 12:46:30,911 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 12:46:31,397 - MelTree - INFO - emitting event "meld-event" to all [/]
+2023-01-24 12:46:31,401 - MelTree - INFO - received event "meld-message" from eaknjC4cNiuC2QPqAAAB [/]
+2023-01-24 12:46:31,414 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 12:46:31,899 - MelTree - INFO - emitting event "meld-event" to all [/]
+2023-01-24 12:46:31,905 - MelTree - INFO - received event "meld-message" from eaknjC4cNiuC2QPqAAAB [/]
+2023-01-24 12:46:31,919 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 12:46:32,402 - MelTree - INFO - emitting event "meld-event" to all [/]
+2023-01-24 12:46:32,410 - MelTree - INFO - received event "meld-message" from eaknjC4cNiuC2QPqAAAB [/]
+2023-01-24 12:46:32,425 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 12:46:32,459 - aiohttp.access - INFO - ::1 [24/Jan/2023:09:16:32 +0000] "GET /static/done.svg HTTP/1.1" 404 172 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 12:46:34,904 - MelTree - INFO - emitting event "meld-event" to all [/]
+2023-01-24 12:46:34,912 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 12:46:34,918 - MelTree - INFO - received event "meld-message" from eaknjC4cNiuC2QPqAAAB [/]
+2023-01-24 12:46:34,929 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 12:46:37,200 - aiohttp.access - INFO - ::1 [24/Jan/2023:09:16:37 +0000] "GET /static/done.svg HTTP/1.1" 404 172 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 12:50:10,654 - aiohttp.access - INFO - ::1 [24/Jan/2023:09:20:10 +0000] "GET / HTTP/1.1" 200 2222 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 12:50:10,690 - aiohttp.access - INFO - ::1 [24/Jan/2023:09:20:10 +0000] "GET /meltree_static/lodash.js HTTP/1.1" 304 178 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 12:50:10,693 - aiohttp.access - INFO - ::1 [24/Jan/2023:09:20:10 +0000] "GET /meltree_static/morphdom-umd.js HTTP/1.1" 304 177 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 12:50:10,694 - aiohttp.access - INFO - ::1 [24/Jan/2023:09:20:10 +0000] "GET /meltree_static/socket.io.min.js HTTP/1.1" 304 177 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 12:50:10,997 - aiohttp.access - INFO - ::1 [24/Jan/2023:09:20:10 +0000] "GET /meltree_static/meld.js HTTP/1.1" 304 176 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 12:50:11,003 - aiohttp.access - INFO - ::1 [24/Jan/2023:09:20:11 +0000] "GET /meltree_static/component.js HTTP/1.1" 304 177 "http://localhost:8080/meltree_static/meld.js" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 12:50:11,004 - aiohttp.access - INFO - ::1 [24/Jan/2023:09:20:11 +0000] "GET /meltree_static/utils.js HTTP/1.1" 304 176 "http://localhost:8080/meltree_static/meld.js" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 12:50:11,013 - aiohttp.access - INFO - ::1 [24/Jan/2023:09:20:11 +0000] "GET /meltree_static/element.js HTTP/1.1" 304 177 "http://localhost:8080/meltree_static/component.js" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 12:50:11,015 - aiohttp.access - INFO - ::1 [24/Jan/2023:09:20:11 +0000] "GET /meltree_static/morph.js HTTP/1.1" 304 177 "http://localhost:8080/meltree_static/component.js" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 12:50:11,021 - aiohttp.access - INFO - ::1 [24/Jan/2023:09:20:11 +0000] "GET /meltree_static/attribute.js HTTP/1.1" 304 176 "http://localhost:8080/meltree_static/element.js" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 12:50:11,033 - aiohttp.access - INFO - ::1 [24/Jan/2023:09:20:11 +0000] "GET /socket.io/?EIO=4&transport=polling&t=ONZ4-aK HTTP/1.1" 200 288 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 12:50:11,045 - aiohttp.access - INFO - ::1 [24/Jan/2023:09:20:11 +0000] "POST /socket.io/?EIO=4&transport=polling&t=ONZ4-aX&sid=p_6Oie6pYiYMP0lSAAAA HTTP/1.1" 200 229 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 12:50:11,055 - aiohttp.access - INFO - ::1 [24/Jan/2023:09:20:11 +0000] "GET /socket.io/?EIO=4&transport=polling&t=ONZ4-aZ&sid=p_6Oie6pYiYMP0lSAAAA HTTP/1.1" 200 191 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 12:50:11,083 - aiohttp.access - INFO - ::1 [24/Jan/2023:09:20:11 +0000] "GET /socket.io/?EIO=4&transport=polling&t=ONZ4-b6&sid=p_6Oie6pYiYMP0lSAAAA HTTP/1.1" 200 191 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 12:50:11,144 - MelTree - INFO - received event "meld-init" from 2A6mJvvCFeHxgKDqAAAB [/]
+2023-01-24 12:50:11,146 - MelTree - INFO - received event "meld-init" from 2A6mJvvCFeHxgKDqAAAB [/]
+2023-01-24 12:50:11,146 - MelTree - INFO - received event "meld-init" from 2A6mJvvCFeHxgKDqAAAB [/]
+2023-01-24 12:50:11,147 - MelTree - INFO - received event "meld-init" from 2A6mJvvCFeHxgKDqAAAB [/]
+2023-01-24 12:50:13,872 - MelTree - INFO - received event "meld-message" from 2A6mJvvCFeHxgKDqAAAB [/]
+2023-01-24 12:50:14,375 - MelTree - INFO - emitting event "meld-event" to all [/]
+2023-01-24 12:50:14,379 - MelTree - INFO - received event "meld-message" from 2A6mJvvCFeHxgKDqAAAB [/]
+2023-01-24 12:50:14,392 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 12:50:14,441 - aiohttp.access - INFO - ::1 [24/Jan/2023:09:20:14 +0000] "GET /socket.io/?EIO=4&transport=polling&t=ONZ4_PW HTTP/1.1" 200 288 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 12:50:14,452 - aiohttp.access - INFO - ::1 [24/Jan/2023:09:20:14 +0000] "POST /socket.io/?EIO=4&transport=polling&t=ONZ4_Pj&sid=_-YXsAqknuzfD9ubAAAC HTTP/1.1" 200 229 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 12:50:14,463 - aiohttp.access - INFO - ::1 [24/Jan/2023:09:20:14 +0000] "GET /socket.io/?EIO=4&transport=polling&t=ONZ4_Pn&sid=_-YXsAqknuzfD9ubAAAC HTTP/1.1" 200 191 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 12:50:14,482 - aiohttp.access - INFO - ::1 [24/Jan/2023:09:20:14 +0000] "GET /socket.io/?EIO=4&transport=polling&t=ONZ4_QA&sid=_-YXsAqknuzfD9ubAAAC HTTP/1.1" 200 191 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 12:50:14,877 - MelTree - INFO - emitting event "meld-event" to all [/]
+2023-01-24 12:50:14,882 - MelTree - INFO - received event "meld-message" from 2A6mJvvCFeHxgKDqAAAB [/]
+2023-01-24 12:50:14,885 - MelTree - INFO - received event "meld-message" from lgOWQvoQ4KZqRM_tAAAD [/]
+2023-01-24 12:50:14,886 - MelTree - ERROR - 'ProgressBar:5c57e3bf-e7b5-4f33-b3b2-bac1968b37ed'
+Traceback (most recent call last):
+  File "/home/j/.cache/pypoetry/virtualenvs/meltree-gXCtYuYI-py3.9/lib/python3.9/site-packages/meltree/meltree.py", line 228, in get_component
+    return self._components[cid]
+KeyError: 'ProgressBar:5c57e3bf-e7b5-4f33-b3b2-bac1968b37ed'
+2023-01-24 12:50:14,888 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-72' coro=<AsyncServer._handle_event_internal() done, defined at /home/j/.cache/pypoetry/virtualenvs/meltree-gXCtYuYI-py3.9/lib/python3.9/site-packages/socketio/asyncio_server.py:522> exception=AttributeError("'NoneType' object has no attribute 'render'")>
+Traceback (most recent call last):
+  File "/home/j/.cache/pypoetry/virtualenvs/meltree-gXCtYuYI-py3.9/lib/python3.9/site-packages/socketio/asyncio_server.py", line 524, in _handle_event_internal
+    r = await server._trigger_event(data[0], namespace, sid, *data[1:])
+  File "/home/j/.cache/pypoetry/virtualenvs/meltree-gXCtYuYI-py3.9/lib/python3.9/site-packages/socketio/asyncio_server.py", line 558, in _trigger_event
+    ret = await handler(*args)
+  File "/home/j/.cache/pypoetry/virtualenvs/meltree-gXCtYuYI-py3.9/lib/python3.9/site-packages/meltree/meltree.py", line 258, in meld_message
+    result = await process_message(component, message)
+  File "/home/j/.cache/pypoetry/virtualenvs/meltree-gXCtYuYI-py3.9/lib/python3.9/site-packages/meltree/message.py", line 69, in process_message
+    res["dom"] = component.render()
+AttributeError: 'NoneType' object has no attribute 'render'
+2023-01-24 12:50:14,910 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 12:50:15,380 - MelTree - INFO - emitting event "meld-event" to all [/]
+2023-01-24 12:50:15,384 - MelTree - INFO - received event "meld-message" from 2A6mJvvCFeHxgKDqAAAB [/]
+2023-01-24 12:50:15,386 - MelTree - INFO - received event "meld-message" from lgOWQvoQ4KZqRM_tAAAD [/]
+2023-01-24 12:50:15,387 - MelTree - ERROR - 'ProgressBar:5c57e3bf-e7b5-4f33-b3b2-bac1968b37ed'
+Traceback (most recent call last):
+  File "/home/j/.cache/pypoetry/virtualenvs/meltree-gXCtYuYI-py3.9/lib/python3.9/site-packages/meltree/meltree.py", line 228, in get_component
+    return self._components[cid]
+KeyError: 'ProgressBar:5c57e3bf-e7b5-4f33-b3b2-bac1968b37ed'
+2023-01-24 12:50:15,388 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-84' coro=<AsyncServer._handle_event_internal() done, defined at /home/j/.cache/pypoetry/virtualenvs/meltree-gXCtYuYI-py3.9/lib/python3.9/site-packages/socketio/asyncio_server.py:522> exception=AttributeError("'NoneType' object has no attribute 'render'")>
+Traceback (most recent call last):
+  File "/home/j/.cache/pypoetry/virtualenvs/meltree-gXCtYuYI-py3.9/lib/python3.9/site-packages/socketio/asyncio_server.py", line 524, in _handle_event_internal
+    r = await server._trigger_event(data[0], namespace, sid, *data[1:])
+  File "/home/j/.cache/pypoetry/virtualenvs/meltree-gXCtYuYI-py3.9/lib/python3.9/site-packages/socketio/asyncio_server.py", line 558, in _trigger_event
+    ret = await handler(*args)
+  File "/home/j/.cache/pypoetry/virtualenvs/meltree-gXCtYuYI-py3.9/lib/python3.9/site-packages/meltree/meltree.py", line 258, in meld_message
+    result = await process_message(component, message)
+  File "/home/j/.cache/pypoetry/virtualenvs/meltree-gXCtYuYI-py3.9/lib/python3.9/site-packages/meltree/message.py", line 69, in process_message
+    res["dom"] = component.render()
+AttributeError: 'NoneType' object has no attribute 'render'
+2023-01-24 12:50:15,405 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 12:50:15,883 - MelTree - INFO - emitting event "meld-event" to all [/]
+2023-01-24 12:50:15,888 - MelTree - INFO - received event "meld-message" from 2A6mJvvCFeHxgKDqAAAB [/]
+2023-01-24 12:50:15,892 - MelTree - INFO - received event "meld-message" from lgOWQvoQ4KZqRM_tAAAD [/]
+2023-01-24 12:50:15,893 - MelTree - ERROR - 'ProgressBar:5c57e3bf-e7b5-4f33-b3b2-bac1968b37ed'
+Traceback (most recent call last):
+  File "/home/j/.cache/pypoetry/virtualenvs/meltree-gXCtYuYI-py3.9/lib/python3.9/site-packages/meltree/meltree.py", line 228, in get_component
+    return self._components[cid]
+KeyError: 'ProgressBar:5c57e3bf-e7b5-4f33-b3b2-bac1968b37ed'
+2023-01-24 12:50:15,896 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-96' coro=<AsyncServer._handle_event_internal() done, defined at /home/j/.cache/pypoetry/virtualenvs/meltree-gXCtYuYI-py3.9/lib/python3.9/site-packages/socketio/asyncio_server.py:522> exception=AttributeError("'NoneType' object has no attribute 'render'")>
+Traceback (most recent call last):
+  File "/home/j/.cache/pypoetry/virtualenvs/meltree-gXCtYuYI-py3.9/lib/python3.9/site-packages/socketio/asyncio_server.py", line 524, in _handle_event_internal
+    r = await server._trigger_event(data[0], namespace, sid, *data[1:])
+  File "/home/j/.cache/pypoetry/virtualenvs/meltree-gXCtYuYI-py3.9/lib/python3.9/site-packages/socketio/asyncio_server.py", line 558, in _trigger_event
+    ret = await handler(*args)
+  File "/home/j/.cache/pypoetry/virtualenvs/meltree-gXCtYuYI-py3.9/lib/python3.9/site-packages/meltree/meltree.py", line 258, in meld_message
+    result = await process_message(component, message)
+  File "/home/j/.cache/pypoetry/virtualenvs/meltree-gXCtYuYI-py3.9/lib/python3.9/site-packages/meltree/message.py", line 69, in process_message
+    res["dom"] = component.render()
+AttributeError: 'NoneType' object has no attribute 'render'
+2023-01-24 12:50:15,912 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 12:50:16,385 - MelTree - INFO - emitting event "meld-event" to all [/]
+2023-01-24 12:50:16,391 - MelTree - INFO - received event "meld-message" from 2A6mJvvCFeHxgKDqAAAB [/]
+2023-01-24 12:50:16,392 - MelTree - INFO - received event "meld-message" from lgOWQvoQ4KZqRM_tAAAD [/]
+2023-01-24 12:50:16,394 - MelTree - ERROR - 'ProgressBar:5c57e3bf-e7b5-4f33-b3b2-bac1968b37ed'
+Traceback (most recent call last):
+  File "/home/j/.cache/pypoetry/virtualenvs/meltree-gXCtYuYI-py3.9/lib/python3.9/site-packages/meltree/meltree.py", line 228, in get_component
+    return self._components[cid]
+KeyError: 'ProgressBar:5c57e3bf-e7b5-4f33-b3b2-bac1968b37ed'
+2023-01-24 12:50:16,396 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-108' coro=<AsyncServer._handle_event_internal() done, defined at /home/j/.cache/pypoetry/virtualenvs/meltree-gXCtYuYI-py3.9/lib/python3.9/site-packages/socketio/asyncio_server.py:522> exception=AttributeError("'NoneType' object has no attribute 'render'")>
+Traceback (most recent call last):
+  File "/home/j/.cache/pypoetry/virtualenvs/meltree-gXCtYuYI-py3.9/lib/python3.9/site-packages/socketio/asyncio_server.py", line 524, in _handle_event_internal
+    r = await server._trigger_event(data[0], namespace, sid, *data[1:])
+  File "/home/j/.cache/pypoetry/virtualenvs/meltree-gXCtYuYI-py3.9/lib/python3.9/site-packages/socketio/asyncio_server.py", line 558, in _trigger_event
+    ret = await handler(*args)
+  File "/home/j/.cache/pypoetry/virtualenvs/meltree-gXCtYuYI-py3.9/lib/python3.9/site-packages/meltree/meltree.py", line 258, in meld_message
+    result = await process_message(component, message)
+  File "/home/j/.cache/pypoetry/virtualenvs/meltree-gXCtYuYI-py3.9/lib/python3.9/site-packages/meltree/message.py", line 69, in process_message
+    res["dom"] = component.render()
+AttributeError: 'NoneType' object has no attribute 'render'
+2023-01-24 12:50:16,410 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 12:50:16,889 - MelTree - INFO - emitting event "meld-event" to all [/]
+2023-01-24 12:50:16,896 - MelTree - INFO - received event "meld-message" from 2A6mJvvCFeHxgKDqAAAB [/]
+2023-01-24 12:50:16,898 - MelTree - INFO - received event "meld-message" from lgOWQvoQ4KZqRM_tAAAD [/]
+2023-01-24 12:50:16,899 - MelTree - ERROR - 'ProgressBar:5c57e3bf-e7b5-4f33-b3b2-bac1968b37ed'
+Traceback (most recent call last):
+  File "/home/j/.cache/pypoetry/virtualenvs/meltree-gXCtYuYI-py3.9/lib/python3.9/site-packages/meltree/meltree.py", line 228, in get_component
+    return self._components[cid]
+KeyError: 'ProgressBar:5c57e3bf-e7b5-4f33-b3b2-bac1968b37ed'
+2023-01-24 12:50:16,900 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-120' coro=<AsyncServer._handle_event_internal() done, defined at /home/j/.cache/pypoetry/virtualenvs/meltree-gXCtYuYI-py3.9/lib/python3.9/site-packages/socketio/asyncio_server.py:522> exception=AttributeError("'NoneType' object has no attribute 'render'")>
+Traceback (most recent call last):
+  File "/home/j/.cache/pypoetry/virtualenvs/meltree-gXCtYuYI-py3.9/lib/python3.9/site-packages/socketio/asyncio_server.py", line 524, in _handle_event_internal
+    r = await server._trigger_event(data[0], namespace, sid, *data[1:])
+  File "/home/j/.cache/pypoetry/virtualenvs/meltree-gXCtYuYI-py3.9/lib/python3.9/site-packages/socketio/asyncio_server.py", line 558, in _trigger_event
+    ret = await handler(*args)
+  File "/home/j/.cache/pypoetry/virtualenvs/meltree-gXCtYuYI-py3.9/lib/python3.9/site-packages/meltree/meltree.py", line 258, in meld_message
+    result = await process_message(component, message)
+  File "/home/j/.cache/pypoetry/virtualenvs/meltree-gXCtYuYI-py3.9/lib/python3.9/site-packages/meltree/message.py", line 69, in process_message
+    res["dom"] = component.render()
+AttributeError: 'NoneType' object has no attribute 'render'
+2023-01-24 12:50:16,914 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 12:50:17,394 - MelTree - INFO - emitting event "meld-event" to all [/]
+2023-01-24 12:50:17,399 - MelTree - INFO - received event "meld-message" from 2A6mJvvCFeHxgKDqAAAB [/]
+2023-01-24 12:50:17,401 - MelTree - INFO - received event "meld-message" from lgOWQvoQ4KZqRM_tAAAD [/]
+2023-01-24 12:50:17,402 - MelTree - ERROR - 'ProgressBar:5c57e3bf-e7b5-4f33-b3b2-bac1968b37ed'
+Traceback (most recent call last):
+  File "/home/j/.cache/pypoetry/virtualenvs/meltree-gXCtYuYI-py3.9/lib/python3.9/site-packages/meltree/meltree.py", line 228, in get_component
+    return self._components[cid]
+KeyError: 'ProgressBar:5c57e3bf-e7b5-4f33-b3b2-bac1968b37ed'
+2023-01-24 12:50:17,403 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-132' coro=<AsyncServer._handle_event_internal() done, defined at /home/j/.cache/pypoetry/virtualenvs/meltree-gXCtYuYI-py3.9/lib/python3.9/site-packages/socketio/asyncio_server.py:522> exception=AttributeError("'NoneType' object has no attribute 'render'")>
+Traceback (most recent call last):
+  File "/home/j/.cache/pypoetry/virtualenvs/meltree-gXCtYuYI-py3.9/lib/python3.9/site-packages/socketio/asyncio_server.py", line 524, in _handle_event_internal
+    r = await server._trigger_event(data[0], namespace, sid, *data[1:])
+  File "/home/j/.cache/pypoetry/virtualenvs/meltree-gXCtYuYI-py3.9/lib/python3.9/site-packages/socketio/asyncio_server.py", line 558, in _trigger_event
+    ret = await handler(*args)
+  File "/home/j/.cache/pypoetry/virtualenvs/meltree-gXCtYuYI-py3.9/lib/python3.9/site-packages/meltree/meltree.py", line 258, in meld_message
+    result = await process_message(component, message)
+  File "/home/j/.cache/pypoetry/virtualenvs/meltree-gXCtYuYI-py3.9/lib/python3.9/site-packages/meltree/message.py", line 69, in process_message
+    res["dom"] = component.render()
+AttributeError: 'NoneType' object has no attribute 'render'
+2023-01-24 12:50:17,417 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 12:50:17,898 - MelTree - INFO - emitting event "meld-event" to all [/]
+2023-01-24 12:50:17,902 - MelTree - INFO - received event "meld-message" from 2A6mJvvCFeHxgKDqAAAB [/]
+2023-01-24 12:50:17,904 - MelTree - INFO - received event "meld-message" from lgOWQvoQ4KZqRM_tAAAD [/]
+2023-01-24 12:50:17,906 - MelTree - ERROR - 'ProgressBar:5c57e3bf-e7b5-4f33-b3b2-bac1968b37ed'
+Traceback (most recent call last):
+  File "/home/j/.cache/pypoetry/virtualenvs/meltree-gXCtYuYI-py3.9/lib/python3.9/site-packages/meltree/meltree.py", line 228, in get_component
+    return self._components[cid]
+KeyError: 'ProgressBar:5c57e3bf-e7b5-4f33-b3b2-bac1968b37ed'
+2023-01-24 12:50:17,908 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-144' coro=<AsyncServer._handle_event_internal() done, defined at /home/j/.cache/pypoetry/virtualenvs/meltree-gXCtYuYI-py3.9/lib/python3.9/site-packages/socketio/asyncio_server.py:522> exception=AttributeError("'NoneType' object has no attribute 'render'")>
+Traceback (most recent call last):
+  File "/home/j/.cache/pypoetry/virtualenvs/meltree-gXCtYuYI-py3.9/lib/python3.9/site-packages/socketio/asyncio_server.py", line 524, in _handle_event_internal
+    r = await server._trigger_event(data[0], namespace, sid, *data[1:])
+  File "/home/j/.cache/pypoetry/virtualenvs/meltree-gXCtYuYI-py3.9/lib/python3.9/site-packages/socketio/asyncio_server.py", line 558, in _trigger_event
+    ret = await handler(*args)
+  File "/home/j/.cache/pypoetry/virtualenvs/meltree-gXCtYuYI-py3.9/lib/python3.9/site-packages/meltree/meltree.py", line 258, in meld_message
+    result = await process_message(component, message)
+  File "/home/j/.cache/pypoetry/virtualenvs/meltree-gXCtYuYI-py3.9/lib/python3.9/site-packages/meltree/message.py", line 69, in process_message
+    res["dom"] = component.render()
+AttributeError: 'NoneType' object has no attribute 'render'
+2023-01-24 12:50:17,923 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 12:50:18,401 - MelTree - INFO - emitting event "meld-event" to all [/]
+2023-01-24 12:50:18,406 - MelTree - INFO - received event "meld-message" from 2A6mJvvCFeHxgKDqAAAB [/]
+2023-01-24 12:50:18,408 - MelTree - INFO - received event "meld-message" from lgOWQvoQ4KZqRM_tAAAD [/]
+2023-01-24 12:50:18,410 - MelTree - ERROR - 'ProgressBar:5c57e3bf-e7b5-4f33-b3b2-bac1968b37ed'
+Traceback (most recent call last):
+  File "/home/j/.cache/pypoetry/virtualenvs/meltree-gXCtYuYI-py3.9/lib/python3.9/site-packages/meltree/meltree.py", line 228, in get_component
+    return self._components[cid]
+KeyError: 'ProgressBar:5c57e3bf-e7b5-4f33-b3b2-bac1968b37ed'
+2023-01-24 12:50:18,411 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-156' coro=<AsyncServer._handle_event_internal() done, defined at /home/j/.cache/pypoetry/virtualenvs/meltree-gXCtYuYI-py3.9/lib/python3.9/site-packages/socketio/asyncio_server.py:522> exception=AttributeError("'NoneType' object has no attribute 'render'")>
+Traceback (most recent call last):
+  File "/home/j/.cache/pypoetry/virtualenvs/meltree-gXCtYuYI-py3.9/lib/python3.9/site-packages/socketio/asyncio_server.py", line 524, in _handle_event_internal
+    r = await server._trigger_event(data[0], namespace, sid, *data[1:])
+  File "/home/j/.cache/pypoetry/virtualenvs/meltree-gXCtYuYI-py3.9/lib/python3.9/site-packages/socketio/asyncio_server.py", line 558, in _trigger_event
+    ret = await handler(*args)
+  File "/home/j/.cache/pypoetry/virtualenvs/meltree-gXCtYuYI-py3.9/lib/python3.9/site-packages/meltree/meltree.py", line 258, in meld_message
+    result = await process_message(component, message)
+  File "/home/j/.cache/pypoetry/virtualenvs/meltree-gXCtYuYI-py3.9/lib/python3.9/site-packages/meltree/message.py", line 69, in process_message
+    res["dom"] = component.render()
+AttributeError: 'NoneType' object has no attribute 'render'
+2023-01-24 12:50:18,427 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 12:50:18,905 - MelTree - INFO - emitting event "meld-event" to all [/]
+2023-01-24 12:50:18,911 - MelTree - INFO - received event "meld-message" from 2A6mJvvCFeHxgKDqAAAB [/]
+2023-01-24 12:50:18,914 - MelTree - INFO - received event "meld-message" from lgOWQvoQ4KZqRM_tAAAD [/]
+2023-01-24 12:50:18,915 - MelTree - ERROR - 'ProgressBar:5c57e3bf-e7b5-4f33-b3b2-bac1968b37ed'
+Traceback (most recent call last):
+  File "/home/j/.cache/pypoetry/virtualenvs/meltree-gXCtYuYI-py3.9/lib/python3.9/site-packages/meltree/meltree.py", line 228, in get_component
+    return self._components[cid]
+KeyError: 'ProgressBar:5c57e3bf-e7b5-4f33-b3b2-bac1968b37ed'
+2023-01-24 12:50:18,917 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-168' coro=<AsyncServer._handle_event_internal() done, defined at /home/j/.cache/pypoetry/virtualenvs/meltree-gXCtYuYI-py3.9/lib/python3.9/site-packages/socketio/asyncio_server.py:522> exception=AttributeError("'NoneType' object has no attribute 'render'")>
+Traceback (most recent call last):
+  File "/home/j/.cache/pypoetry/virtualenvs/meltree-gXCtYuYI-py3.9/lib/python3.9/site-packages/socketio/asyncio_server.py", line 524, in _handle_event_internal
+    r = await server._trigger_event(data[0], namespace, sid, *data[1:])
+  File "/home/j/.cache/pypoetry/virtualenvs/meltree-gXCtYuYI-py3.9/lib/python3.9/site-packages/socketio/asyncio_server.py", line 558, in _trigger_event
+    ret = await handler(*args)
+  File "/home/j/.cache/pypoetry/virtualenvs/meltree-gXCtYuYI-py3.9/lib/python3.9/site-packages/meltree/meltree.py", line 258, in meld_message
+    result = await process_message(component, message)
+  File "/home/j/.cache/pypoetry/virtualenvs/meltree-gXCtYuYI-py3.9/lib/python3.9/site-packages/meltree/message.py", line 69, in process_message
+    res["dom"] = component.render()
+AttributeError: 'NoneType' object has no attribute 'render'
+2023-01-24 12:50:18,933 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 12:50:19,408 - MelTree - INFO - emitting event "meld-event" to all [/]
+2023-01-24 12:50:19,414 - MelTree - INFO - received event "meld-message" from 2A6mJvvCFeHxgKDqAAAB [/]
+2023-01-24 12:50:19,418 - MelTree - INFO - received event "meld-message" from lgOWQvoQ4KZqRM_tAAAD [/]
+2023-01-24 12:50:19,433 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 12:50:19,433 - MelTree - ERROR - 'ProgressBar:5c57e3bf-e7b5-4f33-b3b2-bac1968b37ed'
+Traceback (most recent call last):
+  File "/home/j/.cache/pypoetry/virtualenvs/meltree-gXCtYuYI-py3.9/lib/python3.9/site-packages/meltree/meltree.py", line 228, in get_component
+    return self._components[cid]
+KeyError: 'ProgressBar:5c57e3bf-e7b5-4f33-b3b2-bac1968b37ed'
+2023-01-24 12:50:19,434 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-180' coro=<AsyncServer._handle_event_internal() done, defined at /home/j/.cache/pypoetry/virtualenvs/meltree-gXCtYuYI-py3.9/lib/python3.9/site-packages/socketio/asyncio_server.py:522> exception=AttributeError("'NoneType' object has no attribute 'render'")>
+Traceback (most recent call last):
+  File "/home/j/.cache/pypoetry/virtualenvs/meltree-gXCtYuYI-py3.9/lib/python3.9/site-packages/socketio/asyncio_server.py", line 524, in _handle_event_internal
+    r = await server._trigger_event(data[0], namespace, sid, *data[1:])
+  File "/home/j/.cache/pypoetry/virtualenvs/meltree-gXCtYuYI-py3.9/lib/python3.9/site-packages/socketio/asyncio_server.py", line 558, in _trigger_event
+    ret = await handler(*args)
+  File "/home/j/.cache/pypoetry/virtualenvs/meltree-gXCtYuYI-py3.9/lib/python3.9/site-packages/meltree/meltree.py", line 258, in meld_message
+    result = await process_message(component, message)
+  File "/home/j/.cache/pypoetry/virtualenvs/meltree-gXCtYuYI-py3.9/lib/python3.9/site-packages/meltree/message.py", line 69, in process_message
+    res["dom"] = component.render()
+AttributeError: 'NoneType' object has no attribute 'render'
+2023-01-24 12:50:19,912 - MelTree - INFO - emitting event "meld-event" to all [/]
+2023-01-24 12:50:19,917 - MelTree - INFO - received event "meld-message" from 2A6mJvvCFeHxgKDqAAAB [/]
+2023-01-24 12:50:19,920 - MelTree - INFO - received event "meld-message" from lgOWQvoQ4KZqRM_tAAAD [/]
+2023-01-24 12:50:19,921 - MelTree - ERROR - 'ProgressBar:5c57e3bf-e7b5-4f33-b3b2-bac1968b37ed'
+Traceback (most recent call last):
+  File "/home/j/.cache/pypoetry/virtualenvs/meltree-gXCtYuYI-py3.9/lib/python3.9/site-packages/meltree/meltree.py", line 228, in get_component
+    return self._components[cid]
+KeyError: 'ProgressBar:5c57e3bf-e7b5-4f33-b3b2-bac1968b37ed'
+2023-01-24 12:50:19,922 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-192' coro=<AsyncServer._handle_event_internal() done, defined at /home/j/.cache/pypoetry/virtualenvs/meltree-gXCtYuYI-py3.9/lib/python3.9/site-packages/socketio/asyncio_server.py:522> exception=AttributeError("'NoneType' object has no attribute 'render'")>
+Traceback (most recent call last):
+  File "/home/j/.cache/pypoetry/virtualenvs/meltree-gXCtYuYI-py3.9/lib/python3.9/site-packages/socketio/asyncio_server.py", line 524, in _handle_event_internal
+    r = await server._trigger_event(data[0], namespace, sid, *data[1:])
+  File "/home/j/.cache/pypoetry/virtualenvs/meltree-gXCtYuYI-py3.9/lib/python3.9/site-packages/socketio/asyncio_server.py", line 558, in _trigger_event
+    ret = await handler(*args)
+  File "/home/j/.cache/pypoetry/virtualenvs/meltree-gXCtYuYI-py3.9/lib/python3.9/site-packages/meltree/meltree.py", line 258, in meld_message
+    result = await process_message(component, message)
+  File "/home/j/.cache/pypoetry/virtualenvs/meltree-gXCtYuYI-py3.9/lib/python3.9/site-packages/meltree/message.py", line 69, in process_message
+    res["dom"] = component.render()
+AttributeError: 'NoneType' object has no attribute 'render'
+2023-01-24 12:50:19,938 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 12:50:20,416 - MelTree - INFO - emitting event "meld-event" to all [/]
+2023-01-24 12:50:20,421 - MelTree - INFO - received event "meld-message" from 2A6mJvvCFeHxgKDqAAAB [/]
+2023-01-24 12:50:20,423 - MelTree - INFO - received event "meld-message" from lgOWQvoQ4KZqRM_tAAAD [/]
+2023-01-24 12:50:20,425 - MelTree - ERROR - 'ProgressBar:5c57e3bf-e7b5-4f33-b3b2-bac1968b37ed'
+Traceback (most recent call last):
+  File "/home/j/.cache/pypoetry/virtualenvs/meltree-gXCtYuYI-py3.9/lib/python3.9/site-packages/meltree/meltree.py", line 228, in get_component
+    return self._components[cid]
+KeyError: 'ProgressBar:5c57e3bf-e7b5-4f33-b3b2-bac1968b37ed'
+2023-01-24 12:50:20,428 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-204' coro=<AsyncServer._handle_event_internal() done, defined at /home/j/.cache/pypoetry/virtualenvs/meltree-gXCtYuYI-py3.9/lib/python3.9/site-packages/socketio/asyncio_server.py:522> exception=AttributeError("'NoneType' object has no attribute 'render'")>
+Traceback (most recent call last):
+  File "/home/j/.cache/pypoetry/virtualenvs/meltree-gXCtYuYI-py3.9/lib/python3.9/site-packages/socketio/asyncio_server.py", line 524, in _handle_event_internal
+    r = await server._trigger_event(data[0], namespace, sid, *data[1:])
+  File "/home/j/.cache/pypoetry/virtualenvs/meltree-gXCtYuYI-py3.9/lib/python3.9/site-packages/socketio/asyncio_server.py", line 558, in _trigger_event
+    ret = await handler(*args)
+  File "/home/j/.cache/pypoetry/virtualenvs/meltree-gXCtYuYI-py3.9/lib/python3.9/site-packages/meltree/meltree.py", line 258, in meld_message
+    result = await process_message(component, message)
+  File "/home/j/.cache/pypoetry/virtualenvs/meltree-gXCtYuYI-py3.9/lib/python3.9/site-packages/meltree/message.py", line 69, in process_message
+    res["dom"] = component.render()
+AttributeError: 'NoneType' object has no attribute 'render'
+2023-01-24 12:50:20,444 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 12:50:20,919 - MelTree - INFO - emitting event "meld-event" to all [/]
+2023-01-24 12:50:20,925 - MelTree - INFO - received event "meld-message" from 2A6mJvvCFeHxgKDqAAAB [/]
+2023-01-24 12:50:20,930 - MelTree - INFO - received event "meld-message" from lgOWQvoQ4KZqRM_tAAAD [/]
+2023-01-24 12:50:20,932 - MelTree - ERROR - 'ProgressBar:5c57e3bf-e7b5-4f33-b3b2-bac1968b37ed'
+Traceback (most recent call last):
+  File "/home/j/.cache/pypoetry/virtualenvs/meltree-gXCtYuYI-py3.9/lib/python3.9/site-packages/meltree/meltree.py", line 228, in get_component
+    return self._components[cid]
+KeyError: 'ProgressBar:5c57e3bf-e7b5-4f33-b3b2-bac1968b37ed'
+2023-01-24 12:50:20,933 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-216' coro=<AsyncServer._handle_event_internal() done, defined at /home/j/.cache/pypoetry/virtualenvs/meltree-gXCtYuYI-py3.9/lib/python3.9/site-packages/socketio/asyncio_server.py:522> exception=AttributeError("'NoneType' object has no attribute 'render'")>
+Traceback (most recent call last):
+  File "/home/j/.cache/pypoetry/virtualenvs/meltree-gXCtYuYI-py3.9/lib/python3.9/site-packages/socketio/asyncio_server.py", line 524, in _handle_event_internal
+    r = await server._trigger_event(data[0], namespace, sid, *data[1:])
+  File "/home/j/.cache/pypoetry/virtualenvs/meltree-gXCtYuYI-py3.9/lib/python3.9/site-packages/socketio/asyncio_server.py", line 558, in _trigger_event
+    ret = await handler(*args)
+  File "/home/j/.cache/pypoetry/virtualenvs/meltree-gXCtYuYI-py3.9/lib/python3.9/site-packages/meltree/meltree.py", line 258, in meld_message
+    result = await process_message(component, message)
+  File "/home/j/.cache/pypoetry/virtualenvs/meltree-gXCtYuYI-py3.9/lib/python3.9/site-packages/meltree/message.py", line 69, in process_message
+    res["dom"] = component.render()
+AttributeError: 'NoneType' object has no attribute 'render'
+2023-01-24 12:50:20,946 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 12:50:21,422 - MelTree - INFO - emitting event "meld-event" to all [/]
+2023-01-24 12:50:21,429 - MelTree - INFO - received event "meld-message" from 2A6mJvvCFeHxgKDqAAAB [/]
+2023-01-24 12:50:21,431 - MelTree - INFO - received event "meld-message" from lgOWQvoQ4KZqRM_tAAAD [/]
+2023-01-24 12:50:21,433 - MelTree - ERROR - 'ProgressBar:5c57e3bf-e7b5-4f33-b3b2-bac1968b37ed'
+Traceback (most recent call last):
+  File "/home/j/.cache/pypoetry/virtualenvs/meltree-gXCtYuYI-py3.9/lib/python3.9/site-packages/meltree/meltree.py", line 228, in get_component
+    return self._components[cid]
+KeyError: 'ProgressBar:5c57e3bf-e7b5-4f33-b3b2-bac1968b37ed'
+2023-01-24 12:50:21,434 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-228' coro=<AsyncServer._handle_event_internal() done, defined at /home/j/.cache/pypoetry/virtualenvs/meltree-gXCtYuYI-py3.9/lib/python3.9/site-packages/socketio/asyncio_server.py:522> exception=AttributeError("'NoneType' object has no attribute 'render'")>
+Traceback (most recent call last):
+  File "/home/j/.cache/pypoetry/virtualenvs/meltree-gXCtYuYI-py3.9/lib/python3.9/site-packages/socketio/asyncio_server.py", line 524, in _handle_event_internal
+    r = await server._trigger_event(data[0], namespace, sid, *data[1:])
+  File "/home/j/.cache/pypoetry/virtualenvs/meltree-gXCtYuYI-py3.9/lib/python3.9/site-packages/socketio/asyncio_server.py", line 558, in _trigger_event
+    ret = await handler(*args)
+  File "/home/j/.cache/pypoetry/virtualenvs/meltree-gXCtYuYI-py3.9/lib/python3.9/site-packages/meltree/meltree.py", line 258, in meld_message
+    result = await process_message(component, message)
+  File "/home/j/.cache/pypoetry/virtualenvs/meltree-gXCtYuYI-py3.9/lib/python3.9/site-packages/meltree/message.py", line 69, in process_message
+    res["dom"] = component.render()
+AttributeError: 'NoneType' object has no attribute 'render'
+2023-01-24 12:50:21,451 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 12:50:21,925 - MelTree - INFO - emitting event "meld-event" to all [/]
+2023-01-24 12:50:21,931 - MelTree - INFO - received event "meld-message" from 2A6mJvvCFeHxgKDqAAAB [/]
+2023-01-24 12:50:21,934 - MelTree - INFO - received event "meld-message" from lgOWQvoQ4KZqRM_tAAAD [/]
+2023-01-24 12:50:21,935 - MelTree - ERROR - 'ProgressBar:5c57e3bf-e7b5-4f33-b3b2-bac1968b37ed'
+Traceback (most recent call last):
+  File "/home/j/.cache/pypoetry/virtualenvs/meltree-gXCtYuYI-py3.9/lib/python3.9/site-packages/meltree/meltree.py", line 228, in get_component
+    return self._components[cid]
+KeyError: 'ProgressBar:5c57e3bf-e7b5-4f33-b3b2-bac1968b37ed'
+2023-01-24 12:50:21,936 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-240' coro=<AsyncServer._handle_event_internal() done, defined at /home/j/.cache/pypoetry/virtualenvs/meltree-gXCtYuYI-py3.9/lib/python3.9/site-packages/socketio/asyncio_server.py:522> exception=AttributeError("'NoneType' object has no attribute 'render'")>
+Traceback (most recent call last):
+  File "/home/j/.cache/pypoetry/virtualenvs/meltree-gXCtYuYI-py3.9/lib/python3.9/site-packages/socketio/asyncio_server.py", line 524, in _handle_event_internal
+    r = await server._trigger_event(data[0], namespace, sid, *data[1:])
+  File "/home/j/.cache/pypoetry/virtualenvs/meltree-gXCtYuYI-py3.9/lib/python3.9/site-packages/socketio/asyncio_server.py", line 558, in _trigger_event
+    ret = await handler(*args)
+  File "/home/j/.cache/pypoetry/virtualenvs/meltree-gXCtYuYI-py3.9/lib/python3.9/site-packages/meltree/meltree.py", line 258, in meld_message
+    result = await process_message(component, message)
+  File "/home/j/.cache/pypoetry/virtualenvs/meltree-gXCtYuYI-py3.9/lib/python3.9/site-packages/meltree/message.py", line 69, in process_message
+    res["dom"] = component.render()
+AttributeError: 'NoneType' object has no attribute 'render'
+2023-01-24 12:50:21,953 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 12:50:22,430 - MelTree - INFO - emitting event "meld-event" to all [/]
+2023-01-24 12:50:22,434 - MelTree - INFO - received event "meld-message" from 2A6mJvvCFeHxgKDqAAAB [/]
+2023-01-24 12:50:22,437 - MelTree - INFO - received event "meld-message" from lgOWQvoQ4KZqRM_tAAAD [/]
+2023-01-24 12:50:22,439 - MelTree - ERROR - 'ProgressBar:5c57e3bf-e7b5-4f33-b3b2-bac1968b37ed'
+Traceback (most recent call last):
+  File "/home/j/.cache/pypoetry/virtualenvs/meltree-gXCtYuYI-py3.9/lib/python3.9/site-packages/meltree/meltree.py", line 228, in get_component
+    return self._components[cid]
+KeyError: 'ProgressBar:5c57e3bf-e7b5-4f33-b3b2-bac1968b37ed'
+2023-01-24 12:50:22,440 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-252' coro=<AsyncServer._handle_event_internal() done, defined at /home/j/.cache/pypoetry/virtualenvs/meltree-gXCtYuYI-py3.9/lib/python3.9/site-packages/socketio/asyncio_server.py:522> exception=AttributeError("'NoneType' object has no attribute 'render'")>
+Traceback (most recent call last):
+  File "/home/j/.cache/pypoetry/virtualenvs/meltree-gXCtYuYI-py3.9/lib/python3.9/site-packages/socketio/asyncio_server.py", line 524, in _handle_event_internal
+    r = await server._trigger_event(data[0], namespace, sid, *data[1:])
+  File "/home/j/.cache/pypoetry/virtualenvs/meltree-gXCtYuYI-py3.9/lib/python3.9/site-packages/socketio/asyncio_server.py", line 558, in _trigger_event
+    ret = await handler(*args)
+  File "/home/j/.cache/pypoetry/virtualenvs/meltree-gXCtYuYI-py3.9/lib/python3.9/site-packages/meltree/meltree.py", line 258, in meld_message
+    result = await process_message(component, message)
+  File "/home/j/.cache/pypoetry/virtualenvs/meltree-gXCtYuYI-py3.9/lib/python3.9/site-packages/meltree/message.py", line 69, in process_message
+    res["dom"] = component.render()
+AttributeError: 'NoneType' object has no attribute 'render'
+2023-01-24 12:50:22,455 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 12:50:22,934 - MelTree - INFO - emitting event "meld-event" to all [/]
+2023-01-24 12:50:22,938 - MelTree - INFO - received event "meld-message" from 2A6mJvvCFeHxgKDqAAAB [/]
+2023-01-24 12:50:22,940 - MelTree - INFO - received event "meld-message" from lgOWQvoQ4KZqRM_tAAAD [/]
+2023-01-24 12:50:22,942 - MelTree - ERROR - 'ProgressBar:5c57e3bf-e7b5-4f33-b3b2-bac1968b37ed'
+Traceback (most recent call last):
+  File "/home/j/.cache/pypoetry/virtualenvs/meltree-gXCtYuYI-py3.9/lib/python3.9/site-packages/meltree/meltree.py", line 228, in get_component
+    return self._components[cid]
+KeyError: 'ProgressBar:5c57e3bf-e7b5-4f33-b3b2-bac1968b37ed'
+2023-01-24 12:50:22,945 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-264' coro=<AsyncServer._handle_event_internal() done, defined at /home/j/.cache/pypoetry/virtualenvs/meltree-gXCtYuYI-py3.9/lib/python3.9/site-packages/socketio/asyncio_server.py:522> exception=AttributeError("'NoneType' object has no attribute 'render'")>
+Traceback (most recent call last):
+  File "/home/j/.cache/pypoetry/virtualenvs/meltree-gXCtYuYI-py3.9/lib/python3.9/site-packages/socketio/asyncio_server.py", line 524, in _handle_event_internal
+    r = await server._trigger_event(data[0], namespace, sid, *data[1:])
+  File "/home/j/.cache/pypoetry/virtualenvs/meltree-gXCtYuYI-py3.9/lib/python3.9/site-packages/socketio/asyncio_server.py", line 558, in _trigger_event
+    ret = await handler(*args)
+  File "/home/j/.cache/pypoetry/virtualenvs/meltree-gXCtYuYI-py3.9/lib/python3.9/site-packages/meltree/meltree.py", line 258, in meld_message
+    result = await process_message(component, message)
+  File "/home/j/.cache/pypoetry/virtualenvs/meltree-gXCtYuYI-py3.9/lib/python3.9/site-packages/meltree/message.py", line 69, in process_message
+    res["dom"] = component.render()
+AttributeError: 'NoneType' object has no attribute 'render'
+2023-01-24 12:50:22,958 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 12:50:23,438 - MelTree - INFO - emitting event "meld-event" to all [/]
+2023-01-24 12:50:23,442 - MelTree - INFO - received event "meld-message" from 2A6mJvvCFeHxgKDqAAAB [/]
+2023-01-24 12:50:23,447 - MelTree - INFO - received event "meld-message" from lgOWQvoQ4KZqRM_tAAAD [/]
+2023-01-24 12:50:23,448 - MelTree - ERROR - 'ProgressBar:5c57e3bf-e7b5-4f33-b3b2-bac1968b37ed'
+Traceback (most recent call last):
+  File "/home/j/.cache/pypoetry/virtualenvs/meltree-gXCtYuYI-py3.9/lib/python3.9/site-packages/meltree/meltree.py", line 228, in get_component
+    return self._components[cid]
+KeyError: 'ProgressBar:5c57e3bf-e7b5-4f33-b3b2-bac1968b37ed'
+2023-01-24 12:50:23,449 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-276' coro=<AsyncServer._handle_event_internal() done, defined at /home/j/.cache/pypoetry/virtualenvs/meltree-gXCtYuYI-py3.9/lib/python3.9/site-packages/socketio/asyncio_server.py:522> exception=AttributeError("'NoneType' object has no attribute 'render'")>
+Traceback (most recent call last):
+  File "/home/j/.cache/pypoetry/virtualenvs/meltree-gXCtYuYI-py3.9/lib/python3.9/site-packages/socketio/asyncio_server.py", line 524, in _handle_event_internal
+    r = await server._trigger_event(data[0], namespace, sid, *data[1:])
+  File "/home/j/.cache/pypoetry/virtualenvs/meltree-gXCtYuYI-py3.9/lib/python3.9/site-packages/socketio/asyncio_server.py", line 558, in _trigger_event
+    ret = await handler(*args)
+  File "/home/j/.cache/pypoetry/virtualenvs/meltree-gXCtYuYI-py3.9/lib/python3.9/site-packages/meltree/meltree.py", line 258, in meld_message
+    result = await process_message(component, message)
+  File "/home/j/.cache/pypoetry/virtualenvs/meltree-gXCtYuYI-py3.9/lib/python3.9/site-packages/meltree/message.py", line 69, in process_message
+    res["dom"] = component.render()
+AttributeError: 'NoneType' object has no attribute 'render'
+2023-01-24 12:50:23,463 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 12:50:23,942 - MelTree - INFO - emitting event "meld-event" to all [/]
+2023-01-24 12:50:23,948 - MelTree - INFO - received event "meld-message" from 2A6mJvvCFeHxgKDqAAAB [/]
+2023-01-24 12:50:23,950 - MelTree - INFO - received event "meld-message" from lgOWQvoQ4KZqRM_tAAAD [/]
+2023-01-24 12:50:23,951 - MelTree - ERROR - 'ProgressBar:5c57e3bf-e7b5-4f33-b3b2-bac1968b37ed'
+Traceback (most recent call last):
+  File "/home/j/.cache/pypoetry/virtualenvs/meltree-gXCtYuYI-py3.9/lib/python3.9/site-packages/meltree/meltree.py", line 228, in get_component
+    return self._components[cid]
+KeyError: 'ProgressBar:5c57e3bf-e7b5-4f33-b3b2-bac1968b37ed'
+2023-01-24 12:50:23,952 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-288' coro=<AsyncServer._handle_event_internal() done, defined at /home/j/.cache/pypoetry/virtualenvs/meltree-gXCtYuYI-py3.9/lib/python3.9/site-packages/socketio/asyncio_server.py:522> exception=AttributeError("'NoneType' object has no attribute 'render'")>
+Traceback (most recent call last):
+  File "/home/j/.cache/pypoetry/virtualenvs/meltree-gXCtYuYI-py3.9/lib/python3.9/site-packages/socketio/asyncio_server.py", line 524, in _handle_event_internal
+    r = await server._trigger_event(data[0], namespace, sid, *data[1:])
+  File "/home/j/.cache/pypoetry/virtualenvs/meltree-gXCtYuYI-py3.9/lib/python3.9/site-packages/socketio/asyncio_server.py", line 558, in _trigger_event
+    ret = await handler(*args)
+  File "/home/j/.cache/pypoetry/virtualenvs/meltree-gXCtYuYI-py3.9/lib/python3.9/site-packages/meltree/meltree.py", line 258, in meld_message
+    result = await process_message(component, message)
+  File "/home/j/.cache/pypoetry/virtualenvs/meltree-gXCtYuYI-py3.9/lib/python3.9/site-packages/meltree/message.py", line 69, in process_message
+    res["dom"] = component.render()
+AttributeError: 'NoneType' object has no attribute 'render'
+2023-01-24 12:50:23,966 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 12:50:23,990 - aiohttp.access - INFO - ::1 [24/Jan/2023:09:20:23 +0000] "GET /static/done.svg HTTP/1.1" 200 238 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+2023-01-24 12:50:26,445 - MelTree - INFO - emitting event "meld-event" to all [/]
+2023-01-24 12:50:26,452 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 12:50:26,458 - MelTree - INFO - received event "meld-message" from 2A6mJvvCFeHxgKDqAAAB [/]
+2023-01-24 12:50:26,460 - MelTree - INFO - received event "meld-message" from lgOWQvoQ4KZqRM_tAAAD [/]
+2023-01-24 12:50:26,462 - MelTree - ERROR - 'ProgressBar:5c57e3bf-e7b5-4f33-b3b2-bac1968b37ed'
+Traceback (most recent call last):
+  File "/home/j/.cache/pypoetry/virtualenvs/meltree-gXCtYuYI-py3.9/lib/python3.9/site-packages/meltree/meltree.py", line 228, in get_component
+    return self._components[cid]
+KeyError: 'ProgressBar:5c57e3bf-e7b5-4f33-b3b2-bac1968b37ed'
+2023-01-24 12:50:26,464 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-305' coro=<AsyncServer._handle_event_internal() done, defined at /home/j/.cache/pypoetry/virtualenvs/meltree-gXCtYuYI-py3.9/lib/python3.9/site-packages/socketio/asyncio_server.py:522> exception=AttributeError("'NoneType' object has no attribute 'render'")>
+Traceback (most recent call last):
+  File "/home/j/.cache/pypoetry/virtualenvs/meltree-gXCtYuYI-py3.9/lib/python3.9/site-packages/socketio/asyncio_server.py", line 524, in _handle_event_internal
+    r = await server._trigger_event(data[0], namespace, sid, *data[1:])
+  File "/home/j/.cache/pypoetry/virtualenvs/meltree-gXCtYuYI-py3.9/lib/python3.9/site-packages/socketio/asyncio_server.py", line 558, in _trigger_event
+    ret = await handler(*args)
+  File "/home/j/.cache/pypoetry/virtualenvs/meltree-gXCtYuYI-py3.9/lib/python3.9/site-packages/meltree/meltree.py", line 258, in meld_message
+    result = await process_message(component, message)
+  File "/home/j/.cache/pypoetry/virtualenvs/meltree-gXCtYuYI-py3.9/lib/python3.9/site-packages/meltree/message.py", line 69, in process_message
+    res["dom"] = component.render()
+AttributeError: 'NoneType' object has no attribute 'render'
+2023-01-24 12:50:26,491 - MelTree - INFO - emitting event "meld-response" to all [/]
+2023-01-24 12:50:27,957 - aiohttp.access - INFO - ::1 [24/Jan/2023:09:20:11 +0000] "GET /socket.io/?EIO=4&transport=websocket&sid=p_6Oie6pYiYMP0lSAAAA HTTP/1.1" 101 0 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
