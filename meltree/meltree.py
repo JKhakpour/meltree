@@ -1,4 +1,4 @@
-import sys
+import os
 import logging
 import socketio
 import aiohttp
@@ -77,7 +77,6 @@ class MelTreeHTTP(object):
             format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
             handlers=[
                 logging.StreamHandler(),
-                logging.FileHandler(f"logs-{app_name}.txt"),
             ],
         )
         self.logger = logging.getLogger(name=app_name)
@@ -110,19 +109,19 @@ class MelTreeHTTP(object):
         """
         AIOHTTP Servers HTTP PATCH decorator for specified `path`
         """
-        return self.http_routes.post(path, **kwargs)
+        return self.http_routes.patch(path, **kwargs)
 
     def delete(self, path, **kwargs):
         """
         AIOHTTP Servers HTTP DELETE decorator for specified `path`
         """
-        return self.http_routes.post(path, **kwargs)
+        return self.http_routes.delete(path, **kwargs)
 
     def options(self, path, **kwargs):
         """
         AIOHTTP Servers HTTP OPTIONS decorator for specified `path`
         """
-        return self.http_routes.post(path, **kwargs)
+        return self.http_routes.options(path, **kwargs)
 
     def add_static(self, prefix, path, **kwargs):
         """
@@ -137,11 +136,13 @@ class MelTreeHTTP(object):
         self.http_server = aiohttp.web.Application()
         self.http_routes = aiohttp.web.RouteTableDef()
 
-        self.add_static("/meltree_static", Path(__file__).parent / "static/meltree_static")
+        self.add_static(
+            "/meltree_static", Path(__file__).parent / "static/meltree_static"
+        )
 
         aio_jinja_setup(
             self.http_server,
-            loader=FileSystemLoader("./templates/"),
+            loader=FileSystemLoader(Path(os.getcwd()) / "templates"),
             extensions=[MeldTag(self)],
         )
 
@@ -159,7 +160,7 @@ class MelTreeHTTP(object):
         self.log_level = log_level
         if log_level is not None:
             self.logger.setLevel(log_level)
-        self.wsgi_app = socketio.WSGIApp(self.sio_server, self.http_server)
+
         self.http_server.add_routes(self.http_routes)
         presenter = presenter or []
         if "eel" in presenter:
@@ -278,8 +279,7 @@ class MelTree(MelTreeHTTP):
         for ws in self.sio_server.eio.sockets.values():
             await ws.close(abort=True)
 
-        self.loop.call_soon_threadsafe(self.loop.stop)
-        sys.exit()
+        # self.loop.call_soon_threadsafe(self.loop.stop)
 
 
 def listen(*event_names: str, app_name: str = None):

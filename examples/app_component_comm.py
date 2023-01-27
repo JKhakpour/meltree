@@ -13,6 +13,7 @@ mt.register_component(pbar)
 
 mt.add_static("/static", Path(__file__).parent / "static")
 
+
 @mt.get("/")
 async def index(request):
     return render_template(
