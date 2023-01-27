@@ -1,4 +1,4 @@
-import sys
+import os
 import uuid
 from importlib.util import module_from_spec, spec_from_file_location
 from itertools import groupby
@@ -118,7 +118,7 @@ class ComponentProxy(ObjectProxy):
         context_variables.update({"form": self._form})
 
         template_path = (
-            Path(sys.argv[0]).parent / "templates/meltree" / self.template_path
+            Path(os.getcwd()) / "templates/meltree" / self.template_path
         )
         component_name = self.__class__.__name__
         rendered_template = self._render_template(str(template_path), context_variables)
