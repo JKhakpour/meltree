@@ -16,7 +16,14 @@ jinja2-simple-tags = "^0.4.1"
 orjson = "^3.8.5"
 bs4 = "^0.0.1"
 wrapt = "^1.14.1"
+nest-asyncio = "^1.5.6"
 
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.2.1"
+pytest-aiohttp = "^1.0.4"
+pytest-asyncio = "^0.20.3"
+pdbpp = "^0.10.3"
 
 [build-system]
 requires = ["poetry-core"]

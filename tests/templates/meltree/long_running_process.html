@@ -1,0 +1,22 @@
+<div>
+    <style>
+        .loader {
+            animation: spin 2s linear infinite;
+        }    
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+    <button 
+        meld:loading.attr="disabled" 
+        meld:loading.class="opacity-80 cursor-not-allowed"
+        meld:click="start()"
+        style="padding: 10px;"
+        >
+        Start Long Process
+        <span meld:loading style="float:right; padding-left: 0.5em;">
+            <div class="loader">⟳</div>
+        </span>
+    </button>
+</div>
